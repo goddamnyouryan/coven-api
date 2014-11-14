@@ -2,6 +2,10 @@ module Source
   class Base
     attr_reader :feed_items
 
+    def self.descendants
+      ObjectSpace.each_object(::Class).select {|klass| klass < self }
+    end
+
     def feed_items
       # Should return a json array of the items in the feed
     end
