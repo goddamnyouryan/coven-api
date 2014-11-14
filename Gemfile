@@ -7,6 +7,7 @@ gem 'rails', '4.1.7'
 gem 'pg'
 gem 'unicorn'
 gem 'quiet_assets'
+gem 'typhoeus'
 
 gem 'sass-rails', '~> 4.0.3'
 gem 'compass-rails'
