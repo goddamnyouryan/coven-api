@@ -16,9 +16,9 @@ module Source
 
     def attribute_map(item)
       {
-        id: item['id'],
         url: item['url'],
         title: item['title'],
+        comments: "https://news.ycombinator.com/item?id=#{item['id']}",
         external_created_at: Time.at(item['time'])
       }
     end
