@@ -1,13 +1,13 @@
 module Source
   class Base
-    attr_reader :feed_items, :items
-
-    def initialize
-      @items = []
-    end
+    attr_reader :feed_items
 
     def feed_items
       # Should return a json array of the items in the feed
+    end
+
+    def translate
+      feed_items.map {|item| attribute_map(item) }
     end
 
     def attribute_map(item)
@@ -18,8 +18,13 @@ module Source
       # the base string of the url for the api
     end
 
-    def get(url)
-      response = Typhoeus.get(api + url + '.json')
+    def get(url, options = {}, headers = {})
+      response = Typhoeus.get(api + url + '.json', params: options, headers: headers)
+      JSON.parse(response.body)
+    end
+
+    def post(url, options = {})
+      response = Typhoeus.post(api + url + '.json', params: options)
       JSON.parse(response.body)
     end
   end

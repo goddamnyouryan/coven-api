@@ -1,12 +1,12 @@
 module Source
   class HackerNews < Base
     def feed_items
+      items = []
       item_ids.each do |item|
-        json = get("item/#{item.to_s}")
-        @items << attribute_map(json)
+        items << get("item/#{item.to_s}")
       end
 
-      @items
+      items
     end
 
     def item_ids

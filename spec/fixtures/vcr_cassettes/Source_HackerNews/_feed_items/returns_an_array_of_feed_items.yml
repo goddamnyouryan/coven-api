@@ -22,9 +22,9 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: "[8607366,8606842,8607381,8607093,8606956,8605204,8607250,8606533,8607399,8607282,8607670,8606485,8604814,8605818,8607431,8606879,8604489,8605864,8606179,8604626,8604533,8607463,8605978,8607623,8605641,8606331,8606008,8607695,8605207,8604716,8605186,8606299,8606799,8606860,8605690,8605764,8607253,8604894,8602936,8607288,8602381,8607049,8602590,8607462,8601456,8595905,8600716,8604985,8605847,8601727,8602816,8606362,8603845,8602872,8600174,8603202,8606359,8606119,8601774,8605737,8606410,8602452,8606928,8604773,8607330,8599955,8604586,8602645,8600323,8603955,8606216,8606895,8607637,8607635,8601337,8607565,8606261,8607387,8602988,8605142,8596173,8601357,8605885,8603082,8607369,8606209,8605950,8601441,8606728,8599079,8606100,8606405,8607069,8607434,8601975,8607411,8606613,8605989,8598827,8603017]"
+      string: "[8607366,8606496,8607648,8606842,8608282,8608172,8608358,8607623,8606609,8607282,8607093,8607955,8607712,8606956,8605204,8606405,8606485,8607250,8607399,8606675,8607670,8607695,8606587,8604814,8605818,8606763,8607705,8604489,8608125,8605864,8605978,8605641,8604626,8604533,8606008,8607431,8606613,8606179,8606331,8607861,8606533,8604716,8605186,8607049,8605207,8606799,8605690,8605764,8606299,8608162,8604894,8607253,8602936,8606879,8602381,8607463,8602590,8595905,8601456,8600716,8607381,8604985,8601727,8606362,8608204,8603845,8606860,8602816,8605847,8600174,8602872,8603202,8601774,8607288,8606410,8606119,8602452,8605737,8600323,8602645,8599955,8607462,8604773,8604586,8606895,8603955,8607330,8606216,8598324,8606359,8606928,8601337,8600830,8607565,8607499,8601985,8606401,8607069,8607637,8607635]"
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:18 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:25 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607366.json
@@ -40,7 +40,7 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '330'
+      - '379'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
@@ -48,16 +48,69 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJieSI6ImJvZy1ib2ctYm9nIiwiaWQiOjg2MDczNjYsImtpZHMiOls4NjA3
-        ODU5LDg2MDc4OTYsODYwNzczOCw4NjA3ODQ2LDg2MDc3NTksODYwNzczMiw4
-        NjA3Njk4LDg2MDc1MzcsODYwNzgwMCw4NjA3NzE1LDg2MDc1NTYsODYwNzY3
-        NCw4NjA3NTc2XSwic2NvcmUiOjg5LCJ0ZXh0IjoiIiwidGltZSI6MTQxNTk3
-        Njk1NiwidGl0bGUiOiJNZXRyaWNzR3JhcGhpY3MuanMg4oCTIEQzLWJhc2Vk
-        IGxpYnJhcnkgb3B0aW1pemVkIGZvciB2aXN1YWxpemluZyB0aW1lLXNlcmll
-        cyBkYXRhIiwidHlwZSI6InN0b3J5IiwidXJsIjoiaHR0cDovL21ldHJpY3Nn
-        cmFwaGljc2pzLm9yZyJ9
+        eyJieSI6ImJvZy1ib2ctYm9nIiwiaWQiOjg2MDczNjYsImtpZHMiOls4NjA4
+        MTkyLDg2MDg0MjYsODYwNzg1OSw4NjA3NzM4LDg2MDc3NTksODYwODMyOSw4
+        NjA3OTc3LDg2MDc3MzIsODYwNzg0Niw4NjA3NTM3LDg2MDc2OTgsODYwODMy
+        Miw4NjA3ODk2LDg2MDc4MDAsODYwNzU1Niw4NjA3NzE1LDg2MDc2NzQsODYw
+        NzU3Niw4NjA4MDQ0XSwic2NvcmUiOjE2NywidGV4dCI6IiIsInRpbWUiOjE0
+        MTU5NzY5NTYsInRpdGxlIjoiTWV0cmljc0dyYXBoaWNzLmpzIOKAkyBEMy1i
+        YXNlZCBsaWJyYXJ5IG9wdGltaXplZCBmb3IgdmlzdWFsaXppbmcgdGltZS1z
+        ZXJpZXMgZGF0YSIsInR5cGUiOiJzdG9yeSIsInVybCI6Imh0dHA6Ly9tZXRy
+        aWNzZ3JhcGhpY3Nqcy5vcmcifQ==
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:18 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:25 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606496.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '331'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"riaface","id":8606496,"kids":[8608291,8608393,8608237],"score":42,"text":"","time":1415960147,"title":"U.S.
+        Authorities Are Reportedly Gathering Data Using Fake Celltowers on Planes","type":"story","url":"http://techcrunch.com/2014/11/13/u-s-authorities-are-reportedly-gathering-phone-data-using-fake-celltowers-on-planes/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:25 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607648.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '270'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"chton","id":8607648,"kids":[8608096,8608276,8608239,8608135,8608302,8608152,8608333,8608289],"score":54,"text":"","time":1415980027,"title":"What''s
+        New in C# 6.0 [video]","type":"story","url":"http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/116"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:26 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606842.json
@@ -73,20 +126,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '258'
+      - '267'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"jsnell","id":8606842,"kids":[8607304,8607450],"score":96,"text":"","time":1415968769,"title":"Generators
+      string: '{"by":"jsnell","id":8606842,"kids":[8607304,8607450,8608146],"score":134,"text":"","time":1415968769,"title":"Generators
         in Firefox now 22 times faster","type":"story","url":"https://wingolog.org/archives/2014/11/14/generators-in-firefox-now-twenty-two-times-faster"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:19 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:26 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607381.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8608282.json
     body:
       encoding: US-ASCII
       string: ''
@@ -99,17 +152,147 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '212'
+      - '296'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"anne_veling","id":8607381,"kids":[8607852,8607633,8607521,8607414],"score":32,"text":"","time":1415977121,"title":"0h
-        h1 game is now available on GitHub","type":"story","url":"https://github.com/Q42/0hh1"}'
+      string: '{"by":"m_warsh","id":8608282,"kids":[8608300,8608343],"score":14,"text":"","time":1415985822,"title":"Brazil
+        builds its own fiber optic network to avoid the NSA","type":"story","url":"http://www.sovereignman.com/personal-privacy/brazil-builds-its-own-fiber-optic-network-to-avoid-the-nsa-15551/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:19 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:27 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8608172.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '248'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"teh_klev","id":8608172,"score":14,"text":"","time":1415984702,"title":"Creating
+        an ASP.NET VNext Docker Container Using Mono","type":"story","url":"http://msopentech.com/blog/2014/11/07/creating-asp-net-vnext-docker-container-using-mono-2/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:27 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8608358.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '150'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"vicapow","id":8608358,"score":11,"text":"","time":1415986767,"title":"Show
+        HN: Explained Visually","type":"story","url":"http://setosa.io/ev/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607623.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '255'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"alexbash","id":8607623,"kids":[8608056,8607979,8608156,8608224,8608085,8607664,8608077,8608155],"score":64,"text":"","time":1415979836,"title":"Five-year-old
+        passes Microsoft exam","type":"story","url":"http://www.bbc.com/news/technology-30054140"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606609.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '227'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"matt42","id":8606609,"score":8,"text":"","time":1415963501,"title":"Show
+        HN: A Fast, Malloc-Free C++14 Json Parser / Encoder","type":"story","url":"https://github.com/matt-42/iod#a-fast-malloc-free-json-parser--encoder"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607282.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '280'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"davidbarker","id":8607282,"kids":[8607783,8608082,8608401,8608269,8607758,8608178,8608089,8607415,8607892],"score":46,"text":"","time":1415975750,"title":"Dash
+        now available on iOS","type":"story","url":"https://itunes.apple.com/us/app/dash-api-docs/id935284832?mt=8&uo=4"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:29 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607093.json
@@ -125,7 +308,7 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '258'
+      - '305'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
@@ -133,14 +316,76 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJieSI6Im5ldHdvcmtlZCIsImlkIjo4NjA3MDkzLCJraWRzIjpbODYwNzgx
-        MSw4NjA3ODg4LDg2MDc1NDgsODYwNzU2Niw4NjA3MjkyLDg2MDczODUsODYw
-        NzY1OSw4NjA3NTE1LDg2MDc0OTAsODYwNzUxMiw4NjA3NDgxXSwic2NvcmUi
-        OjQzLCJ0aW1lIjoxNDE1OTczNDI2LCJ0aXRsZSI6IlTDpG56ZXI6IFRoZSBs
-        b3ZhYmxlIHdlYiBzZXJ2ZXIgZnJhbWV3b3JrIGZvciBUY2wiLCJ0eXBlIjoi
-        c3RvcnkiLCJ1cmwiOiJodHRwOi8vdGFuemVyLmlvLyJ9
+        eyJieSI6Im5ldHdvcmtlZCIsImlkIjo4NjA3MDkzLCJraWRzIjpbODYwODI3
+        Nyw4NjA3NTY2LDg2MDgwNzIsODYwNzU0OCw4NjA3ODExLDg2MDczODUsODYw
+        NzI5Miw4NjA3NTE1LDg2MDgwMDgsODYwNzY1OSw4NjA4MTkxLDg2MDc4ODgs
+        ODYwNzQ5MCw4NjA3NTEyLDg2MDc0ODFdLCJzY29yZSI6NTcsInRleHQiOiIi
+        LCJ0aW1lIjoxNDE1OTczNDI2LCJ0aXRsZSI6IlTDpG56ZXIg4oCTIEFuIGlu
+        ZHVzdHJpYWwgd2ViIHNlcnZlciBmcmFtZXdvcmsgZm9yIFRjbCIsInR5cGUi
+        OiJzdG9yeSIsInVybCI6Imh0dHA6Ly90YW56ZXIuaW8vIn0=
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:20 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:29 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607955.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '244'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImJrZXJvYWNrIiwiaWQiOjg2MDc5NTUsImtpZHMiOls4NjA4NDE5
+        LDg2MDg0MDUsODYwODI5NCw4NjA4MzY5LDg2MDgxMzZdLCJzY29yZSI6MTMs
+        InRleHQiOiIiLCJ0aW1lIjoxNDE1OTgyODU1LCJ0aXRsZSI6IlNob3cgSE46
+        IFdvcmRlbnRyb3B5IOKAkyBQc2V1ZG8tZ3JhbW1hdGljYWwgcGFzc3BocmFz
+        ZSBnZW5lcmF0b3IiLCJ0eXBlIjoic3RvcnkiLCJ1cmwiOiJodHRwczovL3d3
+        dy53b3JkZW50cm9weS5vcmcifQ==
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:30 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607712.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '195'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6InRvbWgiLCJpZCI6ODYwNzcxMiwia2lkcyI6Wzg2MDg0MDIsODYw
+        ODI5N10sInNjb3JlIjoxOCwidGltZSI6MTQxNTk4MDU2NywidGl0bGUiOiJS
+        LiBBLiBNb250Z29tZXJ5IDE5MzYg4oCTIDIwMTQiLCJ0eXBlIjoic3Rvcnki
+        LCJ1cmwiOiJodHRwOi8vd3d3LmN5b2EuY29tL3BhZ2VzL3ItYS1tb250Z29t
+        ZXJ5LTE5MzYtMjAxNCJ9
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:30 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606956.json
@@ -156,17 +401,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '301'
+      - '324'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"Digit-Al","id":8606956,"kids":[8607643,8607887,8607872,8607704,8607432,8607862,8607412,8607442,8607581,8607473,8607418,8607717],"score":64,"text":"","time":1415971456,"title":"The
-        Neanderthal correlation","type":"story","url":"http://www.nature.com/nature/journal/v453/n7194/full/453562a.html"}'
+      string: '{"by":"Digit-Al","id":8606956,"kids":[8607643,8607432,8607872,8607442,8607412,8607704,8607887,8608080,8607581,8607862,8607473,8607418,8608123,8607717],"score":83,"text":"","time":1415971456,"title":"The
+        Neanderthal correlation (2008)","type":"story","url":"http://www.nature.com/nature/journal/v453/n7194/full/453562a.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:20 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:30 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8605204.json
@@ -189,10 +434,62 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"davecheney","id":8605204,"kids":[8605567,8605461,8606959,8605280,8605404,8606217,8605601,8605824,8605246,8607040,8605323,8606105,8605346,8605242,8607456,8605712,8605321,8605268,8605743,8606653],"score":585,"text":"","time":1415926359,"title":"Go
+      string: '{"by":"davecheney","id":8605204,"kids":[8605567,8605461,8606959,8605280,8605404,8606217,8605601,8605824,8605246,8605323,8607040,8606105,8605346,8605242,8605712,8607456,8605321,8605268,8605743,8606653],"score":611,"text":"","time":1415926359,"title":"Go
         is moving to GitHub","type":"story","url":"https://groups.google.com/forum/#!topic/golang-dev/sckirqOWepg"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:20 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:31 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606405.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '264'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"sytelus","id":8606405,"kids":[8608081,8608268,8608170,8608128],"score":24,"text":"","time":1415957685,"title":"How
+        Russian Hackers Stole the Nasdaq","type":"story","url":"http://www.businessweek.com/articles/2014-07-17/how-russian-hackers-stole-the-nasdaq"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:31 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606485.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '341'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"InternetGiant","id":8606485,"kids":[8606695,8606752,8606873,8607033,8607992,8607895,8607991,8606722,8608267,8607804,8606804,8607170,8606820,8606757,8606844,8606866,8606786,8606795],"score":117,"text":"","time":1415959869,"title":"Twitter''s
+        debt assigned ''junk'' status","type":"story","url":"http://www.bbc.com/news/business-30048344"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:32 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607250.json
@@ -215,36 +512,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"reledi","id":8607250,"kids":[8607676,8607550,8607650,8607535],"score":53,"text":"","time":1415975432,"title":"Ruby
+      string: '{"by":"reledi","id":8607250,"kids":[8607676,8607550,8607650,8607535],"score":72,"text":"","time":1415975432,"title":"Ruby
         2.1.5 Released","type":"story","url":"https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:21 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606533.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '273'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"tibastral2","id":8606533,"kids":[8606716,8606785,8607303,8606688,8606646,8606958,8606871,8606840,8606872],"score":87,"text":"","time":1415961174,"title":"Build
-        You Own Web Framework in Go","type":"story","url":"http://nicolasmerouze.com/build-web-framework-golang/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:21 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:32 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607399.json
@@ -260,20 +531,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '253'
+      - '279'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"wowsig","id":8607399,"kids":[8607924,8607642],"score":21,"text":"","time":1415977339,"title":"A
-        21 Michelin star holder chef is discussing about human economics","type":"story","url":"http://52metrics.com/hir/worker-bee-thursdays/alain-ducasse/"}'
+      string: '{"by":"wowsig","id":8607399,"kids":[8608091,8607642,8608079,8607924],"score":28,"text":"","time":1415977339,"title":"Alain
+        Ducasse on the connectedness of every participant to the final product","type":"story","url":"http://52metrics.com/hir/worker-bee-thursdays/alain-ducasse/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:22 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:33 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607282.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606675.json
     body:
       encoding: US-ASCII
       string: ''
@@ -286,17 +557,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '240'
+      - '179'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"davidbarker","id":8607282,"kids":[8607783,8607892,8607758,8607415],"score":14,"text":"","time":1415975750,"title":"Dash
-        now available on iOS","type":"story","url":"https://itunes.apple.com/us/app/dash-api-docs/id935284832?mt=8&uo=4"}'
+      string: '{"by":"rsslldnphy","id":8606675,"score":4,"text":"","time":1415965488,"title":"Show
+        HN: DB Migrations as Clojure data","type":"story","url":"https://github.com/bugsbio/lein-tern"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:22 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:33 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607670.json
@@ -322,10 +593,10 @@ http_interactions:
       string: '{"by":"ashrust","id":8607670,"score":1,"text":"","time":1415980250,"title":"iOS
         and JS Engineers Wanted. Let''s Clean Up Telecoms (YC W12)","type":"job","url":"http://SendHub.com/jobs"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:23 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:33 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606485.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8607695.json
     body:
       encoding: US-ASCII
       string: ''
@@ -338,17 +609,48 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '316'
+      - '618'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"InternetGiant","id":8606485,"kids":[8606695,8607895,8606752,8606873,8607804,8607033,8606844,8606722,8606804,8607170,8606820,8606786,8606866,8606757,8606795],"score":86,"text":"","time":1415959869,"title":"Twitter''s
-        debt assigned ''junk'' status","type":"story","url":"http://www.bbc.com/news/business-30048344"}'
+      string: '{"by":"CoreSet","id":8607695,"kids":[8608345,8607904,8608374,8607764,8607969,8607945,8607949,8608027,8607820,8607808,8607929,8607752],"score":30,"text":"Specifically,
+        I&#x27;d love to be able to pass in geocoded location boundaries and color
+        styles to generate a map of the chosen color over the chosen area. Google
+        maps is obviously great for showing navigational data or directions, but I&#x27;m
+        thinking along the lines of something more graphic.<p>Does anyone have any
+        thoughts along these lines?","time":1415980455,"title":"Ask HN: Are there
+        any JavaScript libraries for generating maps?","type":"story","url":""}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:23 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:34 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606587.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '242'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"johnloeber","id":8606587,"score":4,"text":"","time":1415962611,"title":"Scientists
+        have located an algal virus that attacks human DNA","type":"story","url":"http://www.newsweek.com/american-researchers-discover-stupidity-virus-283319"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:34 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604814.json
@@ -371,10 +673,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"hokkos","id":8604814,"kids":[8605193,8605233,8606692,8604849,8607573,8605349,8606186,8605375,8605240,8605523,8607723,8606436,8607727,8605144,8607008,8606022,8605782,8606292,8605588,8605196,8607744,8605089,8605391],"score":309,"text":"","time":1415920860,"title":"Alexander
+      string: '{"by":"hokkos","id":8604814,"kids":[8605193,8605233,8606692,8604849,8605349,8607573,8606186,8605375,8605240,8605523,8606436,8605144,8607008,8607723,8606022,8605782,8606292,8605588,8607727,8605196,8607744,8605089,8605391],"score":328,"text":"","time":1415920860,"title":"Alexander
         Grothendieck has died","type":"story","url":"http://www.liberation.fr/sciences/2014/11/13/alexandre-grothendieck-ou-la-mort-d-un-genie-qui-voulait-se-faire-oublier_1142614"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:23 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:35 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8605818.json
@@ -390,20 +692,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '393'
+      - '409'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"nkurz","id":8605818,"kids":[8606679,8606446,8606432,8606636,8606532,8607027,8607097,8606425,8606919,8607719,8606929,8607187,8606661,8606577,8606492,8606719,8606435],"score":118,"text":"","time":1415939487,"title":"Smartphones
+      string: '{"by":"nkurz","id":8605818,"kids":[8608365,8607994,8606679,8606446,8606432,8606636,8606532,8606425,8607027,8606919,8607097,8606929,8606661,8607187,8606577,8606492,8607719,8606719,8606435],"score":131,"text":"","time":1415939487,"title":"Smartphones
         versus DSLRs versus film: A look at how far we''ve come","type":"story","url":"http://connect.dpreview.com/post/5533410947/smartphones-versus-dslr-versus-film/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:24 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:35 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607431.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606763.json
     body:
       encoding: US-ASCII
       string: ''
@@ -416,20 +718,24 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '265'
+      - '212'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
-      encoding: UTF-8
-      string: '{"by":"fcambus","id":8607431,"kids":[8607903,8607639,8607612,8607791,8607734],"score":29,"text":"","time":1415977713,"title":"FreeBSD
-        10.1-RELEASE images are available","type":"story","url":"http://ftp.freebsd.org/pub/FreeBSD/releases/amd64/amd64/ISO-IMAGES/10.1/"}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6Indlc3RpIiwiaWQiOjg2MDY3NjMsInNjb3JlIjozLCJ0ZXh0Ijoi
+        IiwidGltZSI6MTQxNTk2NzUzOCwidGl0bGUiOiJUaGUgaGlkZGVuIG1lc3Nh
+        Z2VzIGluIGNoaWxkcmVu4oCZcyBib29rcyIsInR5cGUiOiJzdG9yeSIsInVy
+        bCI6Imh0dHA6Ly93d3cuYmJjLmNvbS9jdWx0dXJlL3N0b3J5LzIwMTQwMzE4
+        LWhpZGRlbi1tZXNzYWdlcy1pbi1raWRzLWJvb2tzIn0=
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:24 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:35 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606879.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8607705.json
     body:
       encoding: US-ASCII
       string: ''
@@ -442,17 +748,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '420'
+      - '242'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"diggan","id":8606879,"kids":[8607522,8607016,8607028,8607495,8606996,8607014,8607133,8607878,8606988,8607324,8606993,8607072,8607485,8607395,8607038,8607180,8607498,8607666,8607268,8607103,8607127,8607032,8607185,8606997,8607326,8607115],"score":189,"text":"","time":1415969609,"title":"Why
-        Is Google Blocking Inbox on Firefox?","type":"story","url":"https://gist.github.com/VictorBjelkholm/1d0f4ee6dc5ec0d6646e"}'
+      string: '{"by":"transistor-man","id":8607705,"kids":[8607707],"score":7,"text":"","time":1415980543,"title":"Balancing
+        skateboard contraption: Adventures with micros and servodrives","type":"story","url":"http://transistor-man.com/flying_nimbus.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:25 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:37 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604489.json
@@ -468,17 +774,43 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '317'
+      - '325'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"janvdberg","id":8604489,"kids":[8605471,8605616,8607353,8607286,8605646,8605692,8607005,8606597,8605506,8605415,8607280,8606821,8606334,8605464,8606048,8606754,8606730,8606364],"score":245,"text":"","time":1415916833,"title":"Handmade
+      string: '{"by":"janvdberg","id":8604489,"kids":[8608305,8605471,8605616,8607353,8605646,8607286,8605692,8605506,8605415,8606597,8607005,8606334,8605464,8606821,8606048,8607280,8606754,8606730,8606364],"score":262,"text":"","time":1415916833,"title":"Handmade
         Hero: C game from scratch","type":"story","url":"http://handmadehero.org/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:25 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:38 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8608125.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '252'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"danso","id":8608125,"kids":[8608415],"score":4,"text":"","time":1415984260,"title":"Controversial
+        U.S. energy loan program has wiped out losses","type":"story","url":"http://www.reuters.com/article/2014/11/13/us-doe-loans-idUSKCN0IX0A120141113"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:38 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8605864.json
@@ -494,20 +826,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '278'
+      - '294'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"juanplusjuan","id":8605864,"kids":[8607244,8606965,8606452,8606464,8607376,8606732],"score":63,"text":"","time":1415940750,"title":"Medical
+      string: '{"by":"juanplusjuan","id":8605864,"kids":[8607244,8606965,8608317,8608087,8606452,8606464,8606732,8607376],"score":72,"text":"","time":1415940750,"title":"Medical
         Science Has a Data Problem","type":"story","url":"http://www.newsweek.com/2014/11/21/medical-science-has-data-problem-284066.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:26 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:39 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606179.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8605978.json
     body:
       encoding: US-ASCII
       string: ''
@@ -520,17 +852,43 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '189'
+      - '284'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"signa11","id":8606179,"kids":[8607013,8606600],"score":51,"text":"","time":1415950104,"title":"Emacs:
-        Autotetris Mode","type":"story","url":"http://nullprogram.com/blog/2014/10/19/"}'
+      string: '{"by":"barry-cotter","id":8605978,"kids":[8607322,8607083,8608201,8607241,8607012,8607509,8608242,8607096,8607254,8607863],"score":75,"text":"","time":1415944212,"title":"The
+        Big Data Brain Drain","type":"story","url":"https://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:26 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:39 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8605641.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '199'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"tkmcc","id":8605641,"kids":[8606639,8607792,8608160,8607247],"score":65,"text":"","time":1415934695,"title":"Damm
+        algorithm","type":"story","url":"http://en.wikipedia.org/wiki/Damm_algorithm"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:39 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604626.json
@@ -546,7 +904,7 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '541'
+      - '549'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
@@ -555,20 +913,20 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJieSI6ImRzaGliYXJzaGluIiwiaWQiOjg2MDQ2MjYsImtpZHMiOls4NjA0
-        ODkwLDg2MDQ4OTcsODYwNTU2Miw4NjA3NzU0LDg2MDQ4ODQsODYwNDc4Miw4
-        NjA1MDAxLDg2MDYxODcsODYwNTgzMSw4NjA1ODMyLDg2MDYwNjMsODYwNjE4
-        NCw4NjA2NzkwLDg2MDU3MjIsODYwNTUxMCw4NjA2MTc2LDg2MDQ4MDUsODYw
-        NjAwNCw4NjA0ODM1LDg2MDQ5NTQsODYwNTc5MCw4NjA2MzQ1LDg2MDU1MTcs
-        ODYwNDkyNiw4NjA2MDUwLDg2MDUzMDksODYwNjEzNCw4NjA2MTMyLDg2MDUy
-        ODRdLCJzY29yZSI6MjQwLCJ0ZXh0IjoiIiwidGltZSI6MTQxNTkxODMwOCwi
-        dGl0bGUiOiJBbWVyaWNhbnPigJkgQ2VsbHBob25lcyBUYXJnZXRlZCBpbiBT
-        ZWNyZXQgVS5TLiBTcHkgUHJvZ3JhbSIsInR5cGUiOiJzdG9yeSIsInVybCI6
-        Imh0dHA6Ly9vbmxpbmUud3NqLmNvbS9uZXdzL2FydGljbGVfZW1haWwvYW1l
-        cmljYW5zLWNlbGxwaG9uZXMtdGFyZ2V0ZWQtaW4tc2VjcmV0LXUtcy1zcHkt
-        cHJvZ3JhbS0xNDE1OTE3NTMzLWxNeVFqQXhNVEkwTlRFd016QXhNVE13V2oi
-        fQ==
+        ODkwLDg2MDQ4OTcsODYwNTU2Miw4NjA4MDE3LDg2MDQ4ODQsODYwNDc4Miw4
+        NjA1MDAxLDg2MDYxODcsODYwNTgzMSw4NjA1ODMyLDg2MDc3NTQsODYwNjA2
+        Myw4NjA2MTg0LDg2MDU3MjIsODYwNTUxMCw4NjA2NzkwLDg2MDYxNzYsODYw
+        NDgwNSw4NjA2MDA0LDg2MDQ4MzUsODYwNDk1NCw4NjA1NzkwLDg2MDYzNDUs
+        ODYwNTUxNyw4NjA0OTI2LDg2MDYwNTAsODYwNTMwOSw4NjA2MTM0LDg2MDYx
+        MzIsODYwNTI4NF0sInNjb3JlIjoyNDcsInRleHQiOiIiLCJ0aW1lIjoxNDE1
+        OTE4MzA4LCJ0aXRsZSI6IkFtZXJpY2Fuc+KAmSBDZWxscGhvbmVzIFRhcmdl
+        dGVkIGluIFNlY3JldCBVLlMuIFNweSBQcm9ncmFtIiwidHlwZSI6InN0b3J5
+        IiwidXJsIjoiaHR0cDovL29ubGluZS53c2ouY29tL25ld3MvYXJ0aWNsZV9l
+        bWFpbC9hbWVyaWNhbnMtY2VsbHBob25lcy10YXJnZXRlZC1pbi1zZWNyZXQt
+        dS1zLXNweS1wcm9ncmFtLTE0MTU5MTc1MzMtbE15UWpBeE1USTBOVEV3TXpB
+        eE1UTXdXaiJ9
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:27 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:40 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604533.json
@@ -591,140 +949,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"gordon_freeman","id":8604533,"kids":[8604976,8604984,8605637,8604867,8604953,8605603,8606608,8605104,8604930,8605040],"score":254,"text":"","time":1415917310,"title":"Google
+      string: '{"by":"gordon_freeman","id":8604533,"kids":[8604976,8604984,8605637,8604867,8604953,8605603,8606608,8605104,8604930,8605040],"score":260,"text":"","time":1415917310,"title":"Google
         Lifts the Turing Award into Nobel Territory","type":"story","url":"http://bits.blogs.nytimes.com/2014/11/13/google-lifts-the-turing-award-into-nobel-territory/?ref=technology"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:27 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607463.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '266'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"pzxc","id":8607463,"kids":[8607917,8607865,8607877,8607672,8607756,8607607,8607772,8607599],"score":28,"text":"","time":1415978087,"title":"Financial
-        Disclosure Reports Database","type":"story","url":"http://clerk.house.gov/public_disc/financial-search.aspx"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:27 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605978.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '268'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"barry-cotter","id":8605978,"kids":[8607322,8607083,8607241,8607509,8607012,8607096,8607863,8607254],"score":59,"text":"","time":1415944212,"title":"The
-        Big Data Brain Drain","type":"story","url":"https://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:28 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607623.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '198'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"alexbash","id":8607623,"kids":[8607664],"score":3,"text":"","time":1415979836,"title":"Five-year-old
-        passes Microsoft exam","type":"story","url":"http://www.bbc.com/news/technology-30054140"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:28 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605641.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '191'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"tkmcc","id":8605641,"kids":[8607792,8606639,8607247],"score":50,"text":"","time":1415934695,"title":"Damm
-        algorithm","type":"story","url":"http://en.wikipedia.org/wiki/Damm_algorithm"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:29 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606331.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '291'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"jestinjoy1","id":8606331,"kids":[8607848,8606771,8606927,8607050,8607068,8606903,8606552],"score":50,"text":"","time":1415954625,"title":"Why
-        Ice Cream Sounds Fat and Crackers Sound Skinny","type":"story","url":"http://alumni.stanford.edu/get/page/magazine/article/?article_id=63151"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:29 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:40 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606008.json
@@ -747,13 +975,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"pmoriarty","id":8606008,"kids":[8607159,8607486,8607699,8606645],"score":48,"text":"","time":1415944964,"title":"Exploring
+      string: '{"by":"pmoriarty","id":8606008,"kids":[8607159,8607486,8607699,8606645],"score":60,"text":"","time":1415944964,"title":"Exploring
         large projects with Projectile","type":"story","url":"http://tuhdo.github.io/helm-projectile.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:30 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:41 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607695.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8607431.json
     body:
       encoding: US-ASCII
       string: ''
@@ -766,25 +994,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '569'
+      - '265'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"CoreSet","id":8607695,"kids":[8607929,8607904,8607820,8607808,8607764,8607752],"score":6,"text":"Specifically,
-        I&#x27;d love to be able to pass in geocoded location boundaries and color
-        styles to generate a map of the chosen color over the chosen area. Google
-        maps is obviously great for showing navigational data or directions, but I&#x27;m
-        thinking along the lines of something more graphic.<p>Does anyone have any
-        thoughts along these lines?","time":1415980455,"title":"Ask HN: Are there
-        any JavaScript libraries for generating maps?","type":"story","url":""}'
+      string: '{"by":"fcambus","id":8607431,"kids":[8607903,8607639,8607612,8607791,8607734],"score":41,"text":"","time":1415977713,"title":"FreeBSD
+        10.1-RELEASE images are available","type":"story","url":"http://ftp.freebsd.org/pub/FreeBSD/releases/amd64/amd64/ISO-IMAGES/10.1/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:30 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:41 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605207.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606613.json
     body:
       encoding: US-ASCII
       string: ''
@@ -797,17 +1020,121 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '369'
+      - '206'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"sinak","id":8605207,"kids":[8605895,8605405,8605492,8605475,8605868,8606073,8605549,8606152,8605377],"score":113,"text":"","time":1415926390,"title":"Unsealed
-        Filing Shows DOJ Misled Appeals Court About NSL Gag Orders","type":"story","url":"https://www.eff.org/deeplinks/2014/11/unsealed-filing-shows-doj-misled-appeals-court-about-national-security-letter-gag"}'
+      string: '{"by":"shalmanese","id":8606613,"score":3,"text":"","time":1415963654,"title":"The
+        Smartest Bro in the Room","type":"story","url":"http://www.modernluxury.com/san-francisco/story/the-smartest-bro-the-room"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:30 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:42 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606179.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '189'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"signa11","id":8606179,"kids":[8607013,8606600],"score":57,"text":"","time":1415950104,"title":"Emacs:
+        Autotetris Mode","type":"story","url":"http://nullprogram.com/blog/2014/10/19/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:42 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606331.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '299'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"jestinjoy1","id":8606331,"kids":[8607848,8607050,8606771,8606927,8606903,8607068,8608199,8606552],"score":57,"text":"","time":1415954625,"title":"Why
+        Ice Cream Sounds Fat and Crackers Sound Skinny","type":"story","url":"http://alumni.stanford.edu/get/page/magazine/article/?article_id=63151"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:42 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607861.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '336'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"adamfeldman","id":8607861,"kids":[8608122,8608174,8608131,8608262,8608151,8608140,8608247,8608161,8608129],"score":12,"text":"","time":1415982004,"title":"Wal-Mart
+        told all store managers to match online prices with Amazon","type":"story","url":"http://www.reuters.com/article/2014/11/13/walmart-amazoncom-idUSL2N0T30WN20141113"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:43 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606533.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '274'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"tibastral2","id":8606533,"kids":[8606785,8606716,8606688,8606646,8607303,8606871,8606958,8606840,8606872],"score":97,"text":"","time":1415961174,"title":"Build
+        Your Own Web Framework in Go","type":"story","url":"http://nicolasmerouze.com/build-web-framework-golang/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:43 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604716.json
@@ -823,17 +1150,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '316'
+      - '324'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"mhernandez1988","id":8604716,"kids":[8604837,8607844,8605055,8605996,8607223,8605630,8606370,8605482,8605031,8605745,8605516],"score":170,"text":"","time":1415919524,"title":"Thrust:
+      string: '{"by":"mhernandez1988","id":8604716,"kids":[8604837,8608209,8605055,8605996,8607223,8607844,8605630,8606370,8605482,8605031,8605745,8605516],"score":177,"text":"","time":1415919524,"title":"Thrust:
         Chromium-based cross-platform, cross-language application framework","type":"story","url":"https://github.com/breach/thrust/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:31 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:44 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8605186.json
@@ -856,13 +1183,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"NelsonMinar","id":8605186,"kids":[8605281,8605778,8606972,8605888,8606932,8605445,8605804,8605583,8605443,8605248,8605880,8605843],"score":121,"text":"","time":1415926114,"title":"Net
+      string: '{"by":"NelsonMinar","id":8605186,"kids":[8605281,8605778,8605888,8606972,8606932,8605445,8605804,8605583,8605443,8605248,8605880,8605843],"score":129,"text":"","time":1415926114,"title":"Net
         Neutrality Is Just a Symptom","type":"story","url":"https://corp.sonic.net/ceo/2014/11/12/neutrality-is-just-a-symptom/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:31 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:44 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606299.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8607049.json
     body:
       encoding: US-ASCII
       string: ''
@@ -875,17 +1202,43 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '235'
+      - '228'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"lbenes","id":8606299,"kids":[8607519,8606481,8607401],"score":28,"text":"","time":1415953774,"title":"Self-repairing
-        software tackles malware","type":"story","url":"http://www.sciencedaily.com/releases/2014/11/141113140011.htm"}'
+      string: '{"by":"rst","id":8607049,"kids":[8608261,8607661],"score":10,"text":"","time":1415972799,"title":"Node.js
+        production ships unmaintained version of v8","type":"story","url":"https://code.google.com/p/v8/issues/detail?id=3692#c3"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:32 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:44 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8605207.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '369'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"sinak","id":8605207,"kids":[8605895,8605405,8605492,8605475,8605868,8606073,8605549,8606152,8605377],"score":114,"text":"","time":1415926390,"title":"Unsealed
+        Filing Shows DOJ Misled Appeals Court About NSL Gag Orders","type":"story","url":"https://www.eff.org/deeplinks/2014/11/unsealed-filing-shows-doj-misled-appeals-court-about-national-security-letter-gag"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:45 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606799.json
@@ -911,33 +1264,7 @@ http_interactions:
       string: '{"by":"jkresner","id":8606799,"score":1,"text":"","time":1415968009,"title":"AirPair
         (YC W14) MEAN-Stack Developer","type":"job","url":"http://www.airpair.com/mean-stack/posts/2014-10-job-post-mean-stack-developer"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:32 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606860.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '370'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"bjornsing","id":8606860,"kids":[8607349,8607114,8607078,8607842,8607190,8607316,8607179,8607189,8607130,8607197,8607203,8607095,8606861,8607391,8607138],"score":90,"text":"","time":1415969272,"title":"Sweden
-        has proof foreign submarine entered its waters","type":"story","url":"http://www.reuters.com/article/2014/11/14/us-sweden-submarine-idUSKCN0IY0U720141114"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:32 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:45 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8605690.json
@@ -960,10 +1287,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"cpeterso","id":8605690,"kids":[8606128,8605886,8607525,8605981,8606140,8605957,8606144,8606429,8606207],"score":85,"time":1415936182,"title":"Embracing
+      string: '{"by":"cpeterso","id":8605690,"kids":[8606128,8605886,8605981,8607525,8606140,8605957,8606144,8606429,8606207],"score":87,"time":1415936182,"title":"Embracing
         HTTPS","type":"story","url":"http://open.blogs.nytimes.com/2014/11/13/embracing-https/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:33 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:46 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8605764.json
@@ -986,13 +1313,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"ferrari8608","id":8605764,"kids":[8605854,8606467],"score":54,"text":"","time":1415937945,"title":"AMD
+      string: '{"by":"ferrari8608","id":8605764,"kids":[8605854,8606467],"score":57,"text":"","time":1415937945,"title":"AMD
         has published the full code of the HSA Runtime library","type":"story","url":"http://lkml.iu.edu/hypermail/linux/kernel/1411.1/04487.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:33 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:46 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607253.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606299.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1005,17 +1332,70 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '213'
+      - '235'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"davidbarker","id":8607253,"kids":[8607361,8607285],"score":19,"text":"","time":1415975485,"title":"Skype
-        for Web","type":"story","url":"http://blogs.skype.com/2014/11/14/please-welcome-skype-for-web-beta/"}'
+      string: '{"by":"lbenes","id":8606299,"kids":[8607519,8606481,8607401],"score":28,"text":"","time":1415953774,"title":"Self-repairing
+        software tackles malware","type":"story","url":"http://www.sciencedaily.com/releases/2014/11/141113140011.htm"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:34 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:47 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8608162.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '2195'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"pzxc","id":8608162,"score":4,"text":"It saddens me that high-quality
+        content, even if it&#x27;s extremely interesting for hackers, can fail to
+        gain traction on HN because of the policy of using original article titles.  The
+        author might write a great piece that lots of us would be very interested
+        to read, but if they don&#x27;t pick a good title it will never last on HN
+        long enough for anyone to see it.  I&#x27;ve seen many instances where something
+        highly interesting was on the front page of HN for a short time - until a
+        moderator came along and changed the submission to use the original title,
+        even if it&#x27;s less descriptive. And then it bombs if the title isn&#x27;t
+        eyecatching or if it doesn&#x27;t appeal specifically to the part of the content
+        that HN would find appealing. An otherwise great article, that might have
+        lots to appeal to HN readers, will fail for something as simple as the page
+        title not emphasizing the part that hackers would find interesting but another
+        part of the content.<p>I understand (or at least presume) that the intent
+        of the &quot;original titles policy&quot; is to avoid people submitting clickbait
+        titles just to bring undue attention to their submissions.<p>But isn&#x27;t
+        there a way of applying the policy in a narrower way, so that great content
+        that isn&#x27;t well-titled still stands a chance on HN?<p>(In my mind, I&#x27;m
+        thinking that it should be relatively easy for mods to distinguish between
+        title changes that are obviously clickbait, and title changes that are simply
+        more descriptive of the content.  Right now, the policy is applied in an absolute
+        way, which is evenhanded and fair, but means we&#x27;re missing out on some
+        great stuff just because the original author titles their content generically
+        or in a way that doesn&#x27;t mention the parts that would be interesting
+        to HN readers)<p>I know this has come up before, and I fully expect <i>this</i>
+        post to go nowhere.  But it doesn&#x27;t hurt to try!  I really think that
+        descriptive titles, not original titles, should be the order of the day. Just
+        my opinion!","time":1415984629,"title":"Ask HN: Descriptive titles or original
+        titles?","type":"story","url":""}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:47 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604894.json
@@ -1031,17 +1411,43 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '238'
+      - '246'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"adenot","id":8604894,"kids":[8606816,8607500,8606017,8607085,8605216],"score":94,"text":"","time":1415921998,"title":"Lecture
+      string: '{"by":"adenot","id":8604894,"kids":[8606816,8607500,8606017,8608217,8605216,8607085],"score":95,"text":"","time":1415921998,"title":"Lecture
         16: How to Run a User Interview","type":"story","url":"http://startupclass.samaltman.com/courses/lec16/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:34 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:47 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607253.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '221'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"davidbarker","id":8607253,"kids":[8608438,8607361,8607285],"score":30,"text":"","time":1415975485,"title":"Skype
+        for Web","type":"story","url":"http://blogs.skype.com/2014/11/14/please-welcome-skype-for-web-beta/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:48 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8602936.json
@@ -1064,13 +1470,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"cpenner461","id":8602936,"kids":[8603037,8603059,8603511,8603454,8606849,8603558,8603092,8603187,8607668,8603791,8603137,8603181,8603303,8604530,8604050,8603930,8603460,8603766,8605177,8604929,8603346,8603005,8605447,8603118,8604461,8604806,8604041,8603466,8604946,8604703,8603725,8603737,8603242,8603971,8603333,8603234,8605033,8606041,8605672,8605327,8604603,8603377,8603992],"score":504,"text":"","time":1415901729,"title":"AWS
+      string: '{"by":"cpenner461","id":8602936,"kids":[8603037,8603059,8603511,8603454,8603558,8606849,8603092,8603187,8603791,8603137,8603181,8603303,8604050,8604530,8603930,8603460,8603766,8605177,8604929,8603346,8607668,8603005,8603118,8605447,8604461,8604806,8604041,8603466,8604946,8604703,8603725,8603737,8603242,8603971,8603333,8603234,8605033,8606041,8605672,8605327,8604603,8603377,8603992],"score":505,"text":"","time":1415901729,"title":"AWS
         Lambda","type":"story","url":"http://aws.amazon.com/lambda/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:35 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:48 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607288.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606879.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1083,17 +1489,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '194'
+      - '444'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"r721","id":8607288,"score":3,"text":"","time":1415975845,"title":"OnionDuke:
-        APT Attacks via the Tor Network","type":"story","url":"http://www.f-secure.com/weblog/archives/00002764.html"}'
+      string: '{"by":"diggan","id":8606879,"kids":[8607522,8607016,8607028,8607014,8606996,8607495,8607133,8606988,8607324,8606993,8607072,8607395,8608207,8607038,8608139,8607485,8607878,8607103,8607180,8607498,8607268,8607959,8607666,8607127,8607032,8607185,8606997,8607326,8607115],"score":197,"text":"","time":1415969609,"title":"Why
+        Is Google Blocking Inbox on Firefox?","type":"story","url":"https://gist.github.com/VictorBjelkholm/1d0f4ee6dc5ec0d6646e"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:35 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:49 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8602381.json
@@ -1116,13 +1522,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"timr","id":8602381,"kids":[8604992,8602793,8602624,8602622,8602959,8602760,8602826],"score":174,"time":1415896211,"title":"Making
+      string: '{"by":"timr","id":8602381,"kids":[8604992,8602793,8602624,8602622,8602959,8602760,8602826],"score":175,"time":1415896211,"title":"Making
         Ruby Faster","type":"story","url":"http://omniref.com/blog/blog/2014/11/12/making-ruby-faster/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:35 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:49 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607049.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8607463.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1135,17 +1541,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '219'
+      - '306'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"rst","id":8607049,"kids":[8607661],"score":4,"text":"","time":1415972799,"title":"Node.js
-        production ships unmaintained version of v8","type":"story","url":"https://code.google.com/p/v8/issues/detail?id=3692#c3"}'
+      string: '{"by":"pzxc","id":8607463,"kids":[8607976,8607865,8608292,8607960,8607973,8607877,8607672,8607917,8607756,8607607,8607772,8607599,8608293],"score":32,"text":"","time":1415978087,"title":"Financial
+        Disclosure Reports Database","type":"story","url":"http://clerk.house.gov/public_disc/financial-search.aspx"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:36 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:49 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8602590.json
@@ -1168,78 +1574,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"chdir","id":8602590,"kids":[8603026,8602879,8603023,8606673,8602769,8603795,8602812,8604332,8604527],"score":163,"text":"","time":1415898278,"title":"Pilot
+      string: '{"by":"chdir","id":8602590,"kids":[8603026,8602879,8603023,8602769,8606673,8603795,8602812,8604332,8604527],"score":163,"text":"","time":1415898278,"title":"Pilot
         Who Survived Space Crash Says Parachute Opened Itself","type":"story","url":"http://www.bloomberg.com/news/2014-11-12/pilot-who-survived-spacecraft-crash-says-parachute-opened-itself.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:37 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607462.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '1434'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"CoreSet","id":8607462,"kids":[8607677,8607554],"score":5,"text":"I&#x27;m
-        building a MEAN-stack reddit&#x2F;HN clone as a fun side project and toy.
-        Although its value is primarily its educational benefit for me, I&#x27;d like
-        to build it out and go through all the steps of a proper deployment to learn
-        more about production and get experience with stuff like analytics, ads, etc.<p>I&#x27;m
-        adding authentication right now and, facing the O-Auth question, wondering
-        if I should go with delegated comments via Facebook or Disqus, or stick with
-        my native system.<p>Since this is a side project (I&#x27;m a writer in a tech-ish
-        field) I don&#x27;t have much time for moderation. My biggest fear is that,
-        left (relatively) untended, my small community site will be overrun by spambots
-        and trolls.<p>A delegated system doesn&#x27;t completely forestall this, but
-        it does offer its own spam tools and (in the case of FB especially) a persistent
-        user identity that might discourage trolling. On the other hand, I could do
-        more with a native system, and if it turned out to be possible, I&#x27;d love
-        to add my own simple spam&#x2F;hatespeech detection as another learning exercise.<p>Does
-        anyone have experience with a similar side project? Or are there any moderators
-        who might have insight into the system?","time":1415978073,"title":"Should
-        I use delegated or native comments for my niche community site?","type":"story","url":""}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:37 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8601456.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '226'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"akavel","id":8601456,"kids":[8601942,8602991,8601551,8601526,8602865,8603825,8602850,8602467],"score":220,"text":"","time":1415886670,"title":"Facebook
-        Go Libraries","type":"story","url":"https://github.com/facebookgo"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:38 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:50 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8595905.json
@@ -1262,10 +1600,36 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"ethomson","id":8595905,"kids":[8596093,8596132,8596044,8596626,8596015,8596133,8597363,8595968,8596332,8596016,8599056,8596070,8596036,8595975,8596589,8596659,8597718,8602331,8596886,8599010,8596382,8597118,8600236,8599155,8596094,8596348,8596374,8596922,8597384,8596108,8595937,8596191,8595969,8596892,8596180,8597023,8596097,8596604,8596151,8596567,8598930,8596013,8596470,8596271,8597630,8597813,8600542,8596650,8595972,8602319,8595974,8596617,8596053,8595977,8596069,8596985,8597812,8597705,8596107,8596059,8599587,8599626,8596240,8598620,8595993,8596103,8596063,8600207,8600264,8598773,8597911,8596926,8595978,8597637,8600136,8596006,8596561,8596548,8599741,8598805,8596993,8596083,8599805,8596694,8597629,8596884,8598334,8600738,8596380,8604631,8599523,8601915,8599819,8596120,8597014,8599404,8596635,8595995,8596098,8599358,8595980,8599615,8600978,8596040,8602761,8595999,8596457,8596245,8596759,8596455,8597294,8599070,8597998,8599376,8596076,8597494,8597112,8598110,8595942,8599566,8597888,8596066,8596147,8597872,8596997,8600071,8596062,8596322,8596157,8597433,8596760,8600095,8596007,8597259,8596721,8596521,8596918,8596444,8599375,8599815,8596629,8596383,8599765,8599223,8599208,8596555,8596550,8596544,8596232,8595939,8597022,8596531,8596534,8596540,8597244,8600467,8597182,8596490,8596991,8595983,8596618,8596172,8596089],"score":2347,"text":"","time":1415806647,"title":"Microsoft
+      string: '{"by":"ethomson","id":8595905,"kids":[8596093,8596132,8596044,8596626,8596015,8596133,8597363,8595968,8596332,8596016,8599056,8596070,8596036,8595975,8596589,8596659,8597718,8602331,8596886,8599010,8596382,8597118,8600236,8599155,8596094,8596348,8596374,8596922,8597384,8596108,8595937,8596191,8595969,8596892,8596180,8597023,8596097,8596604,8596151,8596567,8596013,8598930,8596470,8596271,8597630,8597813,8596650,8600542,8595972,8595974,8602319,8596617,8596053,8595977,8596069,8596985,8597812,8597705,8596107,8596059,8599587,8596240,8599626,8598620,8595993,8596103,8596063,8600207,8600264,8598773,8597911,8596926,8595978,8597637,8600136,8596006,8596561,8596548,8599741,8598805,8596993,8596083,8599805,8596694,8597629,8596884,8598334,8596380,8600738,8599523,8604631,8596120,8599819,8601915,8597014,8599404,8596635,8595995,8596098,8595980,8599358,8599615,8596040,8600978,8595999,8602761,8596457,8596245,8596759,8596455,8597294,8599070,8597998,8596076,8597494,8599376,8597112,8598110,8595942,8599566,8597888,8596066,8596147,8597872,8596997,8600071,8596062,8596322,8596157,8597433,8596760,8596007,8600095,8597259,8596721,8596521,8596918,8596444,8599375,8599815,8596629,8596383,8599765,8599223,8599208,8596555,8596550,8596544,8596232,8595939,8597022,8596531,8596534,8596540,8597244,8600467,8597182,8596490,8596991,8595983,8596618,8596172,8596089],"score":2348,"text":"","time":1415806647,"title":"Microsoft
         takes .NET open source and cross-platform","type":"story","url":"http://news.microsoft.com/2014/11/12/microsoft-takes-net-open-source-and-cross-platform-adds-new-development-capabilities-with-visual-studio-2015-net-2015-and-visual-studio-online/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:38 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:50 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8601456.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '226'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"akavel","id":8601456,"kids":[8601942,8602991,8601551,8602865,8601526,8603825,8602850,8602467],"score":220,"text":"","time":1415886670,"title":"Facebook
+        Go Libraries","type":"story","url":"https://github.com/facebookgo"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:51 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8600716.json
@@ -1288,10 +1652,36 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"kvargs","id":8600716,"kids":[8601289,8600905,8602210,8602013,8601294,8602497,8603801,8600877,8601092,8601045,8601025,8606190,8601403,8601823,8600845,8600901,8602105,8601249,8601148,8607652,8601487,8601124,8606270,8601599,8601078,8600898,8601426,8602181,8602128,8601022,8601172,8601492,8600883,8600720,8601225,8601221,8601368,8601449,8600721,8601217,8602283,8600887,8601771,8601927,8602314,8602214,8603870,8601084,8604939,8605872,8601055,8602239,8602182,8602092,8606069,8603593,8603752,8601523,8602060,8602744,8602091,8602566,8601131,8600911,8602178,8602824,8603240,8601165,8601701,8602447,8602201,8602220,8602346,8604679,8600921,8602059,8601898,8601061,8600917,8600838,8605194,8601239,8600874,8600958,8600823],"score":1227,"text":"","time":1415872301,"title":"Letter
+      string: '{"by":"kvargs","id":8600716,"kids":[8601289,8600905,8602210,8602013,8601294,8603801,8602497,8600877,8601092,8601045,8606190,8601025,8601403,8601823,8600845,8600901,8601249,8602105,8601148,8601487,8601124,8606270,8601599,8601078,8600898,8601426,8602181,8607652,8602128,8601022,8601172,8601492,8600883,8600720,8601225,8601221,8601368,8601449,8600721,8601217,8603593,8602283,8600887,8601771,8601927,8602314,8602214,8603870,8601084,8601055,8604939,8605872,8602239,8602092,8602182,8606069,8603752,8601523,8602060,8602744,8602091,8602566,8601131,8600911,8602178,8602824,8603240,8601165,8601701,8602447,8602201,8602220,8602346,8604679,8600921,8602059,8601898,8601061,8600917,8600838,8605194,8601239,8600874,8600958,8600823],"score":1230,"text":"","time":1415872301,"title":"Letter
         to Amazon Board from Fired Ad Exec","type":"story","url":"https://www.scribd.com/embeds/245561031/content?start_page=1&view_mode=scroll&access_key=key-UEZdQ4D9zd883gw8tn3D&show_recommendations=true"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:39 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:51 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607381.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '220'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"anne_veling","id":8607381,"kids":[8608014,8607852,8607633,8607521,8607414],"score":34,"text":"","time":1415977121,"title":"0h
+        h1 game is now available on GitHub","type":"story","url":"https://github.com/Q42/0hh1"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:52 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604985.json
@@ -1307,43 +1697,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '275'
+      - '283'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"sea6ear","id":8604985,"kids":[8607208,8605710,8606599,8605730,8605625,8607026,8605906,8605870,8605955,8605440,8605606,8605966],"score":63,"text":"","time":1415923189,"title":"J
+      string: '{"by":"sea6ear","id":8604985,"kids":[8605710,8608249,8607208,8605730,8606599,8605625,8605906,8607026,8605870,8605955,8605440,8605606,8605966],"score":65,"text":"","time":1415923189,"title":"J
         for C Programmers","type":"story","url":"http://www.jsoftware.com/help/jforc/contents.htm"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:39 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605847.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '376'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"wyclif","id":8605847,"kids":[8605938,8605907,8606095,8607291,8605933,8606650,8606037,8606616,8606061,8606042,8605901,8606001,8606028,8606020,8605924,8605988],"score":203,"text":"","time":1415940259,"title":"Why
-        Did Yishan Wong Resign as Reddit CEO?","type":"story","url":"http://www.quora.com/Why-did-Yishan-Wong-resign-as-Reddit-CEO/answer/Yishan-Wong?srid=X&share=1"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:40 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:52 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8601727.json
@@ -1366,36 +1730,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"jordigh","id":8601727,"kids":[8602052,8602003,8601900,8601839,8602701,8601858,8603444,8602200,8601753,8604035,8601923,8605905,8603063,8602250,8605344,8602367,8601967,8601988],"score":156,"text":"","time":1415890088,"title":"Simple
+      string: '{"by":"jordigh","id":8601727,"kids":[8602052,8602003,8601900,8601839,8602701,8601858,8603444,8602200,8601753,8604035,8601923,8605905,8603063,8602250,8605344,8602367,8601967,8601988],"score":157,"text":"","time":1415890088,"title":"Simple
         Revision Control","type":"story","url":"http://www.catb.org/~esr/src/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:40 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8602816.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '232'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"callum85","id":8602816,"kids":[8606053,8604176,8604770,8604108,8603980,8604375,8604668],"score":95,"text":"","time":1415900690,"title":"The
-        Visible Atomic Bomb","type":"story","url":"http://unmakingthebomb.com/visible-bomb/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:40 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:52 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606362.json
@@ -1411,7 +1749,7 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '185'
+      - '204'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
@@ -1419,9 +1757,35 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"by":"hackerews","id":8606362,"score":1,"text":"","time":1415955768,"title":"Help
-        Build Functions in the Cloud with Blockspring","type":"job","url":"https://jobs.lever.co/blockspring"}'
+        Build Functions-as-a-Service. Looking for Hackers and Designers.","type":"job","url":"https://jobs.lever.co/blockspring"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:41 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:53 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8608204.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '252'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"gmays","id":8608204,"score":4,"text":"","time":1415985036,"title":"A
+        3-Question Quiz That Predicts Whether You Believe in God","type":"story","url":"http://bigthink.com/praxis/a-three-question-math-quiz-that-predicts-whether-you-believe-in-god"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:53 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8603845.json
@@ -1444,13 +1808,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"gatsby","id":8603845,"kids":[8604199,8604151,8603947,8603921,8603888,8604149,8605875,8606203,8604193,8604017,8604419,8603936,8604481,8603994,8604862,8603940,8604252,8604750,8603932,8605119,8604218,8604047,8605396,8605064,8604105,8604336,8604446,8603975,8603987,8604383,8603905,8604079,8603946,8604001,8603922,8604690,8604724,8604732,8604113,8604786],"score":357,"text":"","time":1415910553,"title":"A
+      string: '{"by":"gatsby","id":8603845,"kids":[8604199,8604151,8603947,8603921,8603888,8604149,8605875,8606203,8604193,8604017,8604419,8603936,8604481,8603994,8604862,8604750,8603940,8604252,8603932,8605119,8604218,8604047,8605064,8605396,8604105,8604336,8604446,8603975,8603987,8604383,8603905,8604079,8603946,8604001,8603922,8604690,8604724,8604732,8604113,8604786],"score":359,"text":"","time":1415910553,"title":"A
         new team at Reddit","type":"story","url":"http://blog.samaltman.com/a-new-team-at-reddit"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:41 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:54 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8602872.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606860.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1463,17 +1827,69 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '325'
+      - '370'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"nitinag","id":8602872,"kids":[8604295,8605479,8602977,8603060,8602967,8605594,8606034,8602974,8603040,8604366,8603022,8604728,8602933,8603399,8603140,8603070],"score":346,"text":"","time":1415901092,"title":"AWS
-        EC2 Container Service","type":"story","url":"http://aws.amazon.com/blogs/aws/cloud-container-management/"}'
+      string: '{"by":"bjornsing","id":8606860,"kids":[8607349,8607114,8607078,8607190,8607842,8607189,8607197,8607316,8607179,8607130,8607203,8607095,8606861,8607391,8607138],"score":96,"text":"","time":1415969272,"title":"Sweden
+        has proof foreign submarine entered its waters","type":"story","url":"http://www.reuters.com/article/2014/11/14/us-sweden-submarine-idUSKCN0IY0U720141114"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:42 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:54 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8602816.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '232'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"callum85","id":8602816,"kids":[8606053,8604176,8604770,8604108,8603980,8604375,8604668],"score":96,"text":"","time":1415900690,"title":"The
+        Visible Atomic Bomb","type":"story","url":"http://unmakingthebomb.com/visible-bomb/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:55 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8605847.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '384'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"wyclif","id":8605847,"kids":[8605938,8605907,8606095,8605933,8607291,8606650,8606061,8606037,8608185,8606616,8606042,8605901,8606001,8606028,8606020,8605924,8605988],"score":205,"text":"","time":1415940259,"title":"Why
+        Did Yishan Wong Resign as Reddit CEO?","type":"story","url":"http://www.quora.com/Why-did-Yishan-Wong-resign-as-Reddit-CEO/answer/Yishan-Wong?srid=X&share=1"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:55 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8600174.json
@@ -1496,10 +1912,36 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"noblethrasher","id":8600174,"kids":[8600510,8601846,8600378,8601543,8601422,8602889,8601860,8600715,8600784,8602066],"score":244,"text":"","time":1415858654,"title":"F#
+      string: '{"by":"noblethrasher","id":8600174,"kids":[8600510,8601846,8600378,8601543,8601422,8602889,8601860,8600715,8600784,8602066],"score":245,"text":"","time":1415858654,"title":"F#
         4.0 Preview","type":"story","url":"http://blogs.msdn.com/b/fsharpteam/archive/2014/11/12/announcing-a-preview-of-f-4-0-and-the-visual-f-tools-in-vs-2015.aspx"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:42 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:55 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8602872.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '325'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"nitinag","id":8602872,"kids":[8604295,8605479,8602977,8603060,8602967,8605594,8606034,8602974,8603040,8604366,8603022,8604728,8602933,8603399,8603140,8603070],"score":347,"text":"","time":1415901092,"title":"AWS
+        EC2 Container Service","type":"story","url":"http://aws.amazon.com/blogs/aws/cloud-container-management/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:56 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8603202.json
@@ -1522,62 +1964,10 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"lelf","id":8603202,"kids":[8603488,8605490,8605531,8603839,8603447,8605512,8604347,8603404,8603539,8603394,8605253],"score":88,"time":1415903998,"title":"Teaching
+      string: '{"by":"lelf","id":8603202,"kids":[8603488,8605490,8605531,8603839,8603447,8605512,8604347,8603404,8603539,8603394,8605253],"score":89,"time":1415903998,"title":"Teaching
         OCaml","type":"story","url":"http://ocaml.org/learn/teaching-ocaml.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:42 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606359.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '260'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"pmcpinto","id":8606359,"kids":[8606741,8607775,8606904,8607161,8606686,8607528],"score":48,"text":"","time":1415955709,"title":"The
-        High Cost of Oil","type":"story","url":"http://www.outsideonline.com/outdoor-adventure/nature/The-High-Cost-of-Oil.html"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:43 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606119.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '202'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"r4um","id":8606119,"kids":[8607902,8606380],"score":20,"text":"","time":1415948444,"title":"The
-        Isomap Algorithm","type":"story","url":"http://blog.shriphani.com/2014/11/12/the-isomap-algorithm"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:43 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:56 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8601774.json
@@ -1603,20 +1993,20 @@ http_interactions:
       string: !binary |-
         eyJieSI6Im1ydG5rbCIsImlkIjo4NjAxNzc0LCJraWRzIjpbODYwMjgyNyw4
         NjAxOTk1LDg2MDI1MDYsODYwMjYxMCw4NjAyNDAzLDg2MDM2MzIsODYwMzAx
-        MCw4NjAzMDkzLDg2MDYxOTMsODYwMjM3MCw4NjAyNDQ4LDg2MDIwMzAsODYw
-        MjkwNyw4NjA2NDE3LDg2MDQ0ODIsODYwMzY5NCw4NjAyMTU2LDg2MDU2ODIs
-        ODYwNTg5MSw4NjAzMTc2LDg2MDI1NzEsODYwNjMwNiw4NjAyNjkzLDg2MDIx
-        NjAsODYwMzgxOSw4NjAyMTk0LDg2MDU3NDgsODYwMTgyNiw4NjAxODk0LDg2
+        MCw4NjAzMDkzLDg2MDIzNzAsODYwNjE5Myw4NjAyNDQ4LDg2MDIwMzAsODYw
+        MjkwNyw4NjA0NDgyLDg2MDI1NzEsODYwNjQxNyw4NjAzNjk0LDg2MDIxNTYs
+        ODYwNTY4Miw4NjA1ODkxLDg2MDMxNzYsODYwMjY5Myw4NjAyMTYwLDg2MDYz
+        MDYsODYwMzgxOSw4NjAyMTk0LDg2MDU3NDgsODYwMTgyNiw4NjAxODk0LDg2
         MDQ2MTcsODYwNTYzNCw4NjA0MTY2LDg2MDI2NDksODYwNTAzNiw4NjAyNDE1
         LDg2MDIxNzUsODYwMTk3MCw4NjA0NDE3LDg2MDMzNjIsODYwMjQ3Myw4NjAy
-        MDQ5LDg2MDE5MzBdLCJzY29yZSI6Mzk2LCJ0ZXh0IjoiIiwidGltZSI6MTQx
+        MDQ5LDg2MDE5MzBdLCJzY29yZSI6Mzk4LCJ0ZXh0IjoiIiwidGltZSI6MTQx
         NTg5MDUwMiwidGl0bGUiOiIwaCBoMSDigJMgQSBsaXR0bGUgbG9naWMgZ2Ft
         ZSIsInR5cGUiOiJzdG9yeSIsInVybCI6Imh0dHA6Ly8waGgxLmNvbSJ9
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:44 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:57 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605737.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8607288.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1629,17 +2019,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '193'
+      - '194'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"lelf","id":8605737,"kids":[8606155],"score":27,"text":"","time":1415937322,"title":"The
-        complete correctness of sorting (2013)","type":"story","url":"http://twanvl.nl/blog/agda/sorting"}'
+      string: '{"by":"r721","id":8607288,"score":3,"text":"","time":1415975845,"title":"OnionDuke:
+        APT Attacks via the Tor Network","type":"story","url":"http://www.f-secure.com/weblog/archives/00002764.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:44 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:57 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606410.json
@@ -1655,17 +2045,43 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '224'
+      - '225'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"p8952","id":8606410,"score":9,"text":"","time":1415957848,"title":"Node.js
+      string: '{"by":"p8952","id":8606410,"score":11,"text":"","time":1415957848,"title":"Node.js
         production release ships with no longer supported version of V8","type":"story","url":"https://code.google.com/p/v8/issues/detail?id=3692#c6"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:45 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:57 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606119.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '202'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"r4um","id":8606119,"kids":[8607902,8606380],"score":21,"text":"","time":1415948444,"title":"The
+        Isomap Algorithm","type":"story","url":"http://blog.shriphani.com/2014/11/12/the-isomap-algorithm"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:54:58 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8602452.json
@@ -1691,10 +2107,10 @@ http_interactions:
       string: '{"by":"constantinum","id":8602452,"kids":[8602902,8602735,8603826,8602964,8602655,8603863],"score":98,"text":"","time":1415896956,"title":"Amazon
         and Hachette Resolve Dispute","type":"story","url":"http://www.nytimes.com/2014/11/14/technology/amazon-hachette-ebook-dispute.html?ref=technology&_r=0"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:46 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:58 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606928.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8605737.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1707,20 +2123,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '251'
+      - '193'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"spencerwalden","id":8606928,"kids":[8607874,8607392],"score":14,"text":"","time":1415970740,"title":"Bootstrapping
-        my way to 80k, the start of my startup adventure","type":"story","url":"http://www.spencer-walden.com/bootstrapping-way-80-000/"}'
+      string: '{"by":"lelf","id":8605737,"kids":[8606155],"score":27,"text":"","time":1415937322,"title":"The
+        complete correctness of sorting (2013)","type":"story","url":"http://twanvl.nl/blog/agda/sorting"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:46 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:59 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8604773.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8600323.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1733,20 +2149,20 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '248'
+      - '506'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"todayiamme","id":8604773,"kids":[8606241,8606158],"score":36,"text":"","time":1415920274,"title":"Life
-        at the Top: What a window washer sees (2013)","type":"story","url":"http://www.newyorker.com/magazine/2013/02/04/life-at-the-top?hn=true"}'
+      string: '{"by":"throwaway_yy2Di","id":8600323,"kids":[8601190,8601577,8601224,8600858,8602510,8600899,8601074,8602317,8600807,8601010,8601332,8600834,8602057,8601114,8600736,8600943,8601017,8600841,8602366,8603182,8600849,8601305],"score":171,"text":"","time":1415862793,"title":"German
+        Cloud Company Offering Free Heat If You Have Room for Some of Its Servers","type":"story","url":"http://www.slate.com/blogs/future_tense/2014/11/11/cloud_heat_is_putting_servers_in_homes_and_offices_and_the_heat_from_them.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:47 GMT
+  recorded_at: Fri, 14 Nov 2014 17:54:59 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607330.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8602645.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1759,17 +2175,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '233'
+      - '271'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"isgood12","id":8607330,"kids":[8607464],"score":6,"text":"","time":1415976402,"title":"Google
-        Glass believers losing faith","type":"story","url":"http://finance.yahoo.com/news/google-glass-future-clouded-early-120000814.html"}'
+      string: '{"by":"lelf","id":8602645,"kids":[8603716,8603164,8603433,8602869,8603622,8603644,8603771,8604365],"score":87,"time":1415898921,"title":"The
+        pitfalls of using ssh-agent, or how to use an agent safely","type":"story","url":"http://rabexc.org/posts/pitfalls-of-ssh-agents"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:47 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:00 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8599955.json
@@ -1792,10 +2208,78 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"whyenot","id":8599955,"kids":[8602540,8602395,8602846,8601938,8600224,8603163,8600268,8600201,8601571,8601086,8600177,8602641,8603035,8603034,8601304,8600478],"score":185,"text":"","time":1415853400,"title":"Idea
+      string: '{"by":"whyenot","id":8599955,"kids":[8602540,8602395,8602846,8601938,8600224,8600268,8603163,8600201,8601571,8601086,8600177,8602641,8603035,8603034,8601304,8600478],"score":185,"text":"","time":1415853400,"title":"Idea
         that intestinal bacteria affect mental health gains ground","type":"story","url":"http://www.nature.com/news/gut-brain-link-grabs-neuroscientists-1.16316"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:48 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:00 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607462.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '1442'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"CoreSet","id":8607462,"kids":[8607677,8607939,8607554],"score":5,"text":"I&#x27;m
+        building a MEAN-stack reddit&#x2F;HN clone as a fun side project and toy.
+        Although its value is primarily its educational benefit for me, I&#x27;d like
+        to build it out and go through all the steps of a proper deployment to learn
+        more about production and get experience with stuff like analytics, ads, etc.<p>I&#x27;m
+        adding authentication right now and, facing the O-Auth question, wondering
+        if I should go with delegated comments via Facebook or Disqus, or stick with
+        my native system.<p>Since this is a side project (I&#x27;m a writer in a tech-ish
+        field) I don&#x27;t have much time for moderation. My biggest fear is that,
+        left (relatively) untended, my small community site will be overrun by spambots
+        and trolls.<p>A delegated system doesn&#x27;t completely forestall this, but
+        it does offer its own spam tools and (in the case of FB especially) a persistent
+        user identity that might discourage trolling. On the other hand, I could do
+        more with a native system, and if it turned out to be possible, I&#x27;d love
+        to add my own simple spam&#x2F;hatespeech detection as another learning exercise.<p>Does
+        anyone have experience with a similar side project? Or are there any moderators
+        who might have insight into the system?","time":1415978073,"title":"Should
+        I use delegated or native comments for my niche community site?","type":"story","url":""}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:00 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8604773.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '256'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"todayiamme","id":8604773,"kids":[8608148,8606241,8606158],"score":36,"text":"","time":1415920274,"title":"Life
+        at the Top: What a window washer sees (2013)","type":"story","url":"http://www.newyorker.com/magazine/2013/02/04/life-at-the-top?hn=true"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:01 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8604586.json
@@ -1818,7 +2302,7 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"kogir","id":8604586,"kids":[8604902,8604790,8605598,8604767,8606213,8605122,8605869,8604706,8605256,8604840,8605272,8604660,8604726],"score":163,"text":"Under
+      string: '{"by":"kogir","id":8604586,"kids":[8604902,8604790,8604767,8605598,8606213,8605122,8605869,8604706,8605256,8604840,8605272,8604660,8604726],"score":163,"text":"Under
         certain error conditions, a bug in our API code briefly published 84\nusers&#x27;
         usernames, email addresses, password hashes, and 100 most recent votes.\nThis
         information appeared at https:&#x2F;&#x2F;hacker-news.firebaseio.com&#x2F;v0&#x2F;updates.
@@ -1845,10 +2329,10 @@ http_interactions:
         items was published <i>IS THE BUG</i>, and is now fixed.","time":1415917880,"title":"Tell
         HN: Hacker News Profile Leak (Fixed)","type":"story","url":""}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:48 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:01 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8602645.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8606895.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1861,43 +2345,17 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '271'
+      - '209'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"lelf","id":8602645,"kids":[8603716,8603164,8602869,8603433,8603622,8603644,8603771,8604365],"score":87,"time":1415898921,"title":"The
-        pitfalls of using ssh-agent, or how to use an agent safely","type":"story","url":"http://rabexc.org/posts/pitfalls-of-ssh-agents"}'
+      string: '{"by":"hanula","id":8606895,"kids":[8607967],"score":4,"text":"","time":1415970001,"title":"Philae:
+        The Biggest Jump Ever","type":"story","url":"http://blog.wolfspelz.de/2014/11/philae-biggest-jump-ever.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:48 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8600323.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '506'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"throwaway_yy2Di","id":8600323,"kids":[8601190,8601577,8601224,8600858,8602510,8600899,8601074,8602317,8600807,8601010,8601332,8600834,8602057,8601114,8600736,8600943,8601017,8600841,8603182,8602366,8600849,8601305],"score":171,"text":"","time":1415862793,"title":"German
-        Cloud Company Offering Free Heat If You Have Room for Some of Its Servers","type":"story","url":"http://www.slate.com/blogs/future_tense/2014/11/11/cloud_heat_is_putting_servers_in_homes_and_offices_and_the_heat_from_them.html"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:49 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:02 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8603955.json
@@ -1922,13 +2380,39 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJieSI6Imhpc2luZyIsImlkIjo4NjAzOTU1LCJraWRzIjpbODYwNDY1NSw4
-        NjA1NzUyLDg2MDQ2OTEsODYwNDk5Niw4NjA0Nzk4XSwic2NvcmUiOjYyLCJ0
+        NjA1NzUyLDg2MDQ2OTEsODYwNDk5Niw4NjA0Nzk4XSwic2NvcmUiOjYzLCJ0
         ZXh0IjoiIiwidGltZSI6MTQxNTkxMTU0NSwidGl0bGUiOiJDaHJvbWEuanMg
         4oCTIEEgSmF2YVNjcmlwdCBsaWJyYXJ5IGZvciBjb2xvciBjb252ZXJzaW9u
         cyBhbmQgY29sb3Igc2NhbGVzIiwidHlwZSI6InN0b3J5IiwidXJsIjoiaHR0
         cHM6Ly9naXRodWIuY29tL2drYS9jaHJvbWEuanMifQ==
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:49 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:02 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607330.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '257'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"isgood12","id":8607330,"kids":[8608137,8608030,8608307,8607464],"score":9,"text":"","time":1415976402,"title":"Google
+        Glass believers losing faith","type":"story","url":"http://finance.yahoo.com/news/google-glass-future-clouded-early-120000814.html"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:02 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8606216.json
@@ -1951,13 +2435,13 @@ http_interactions:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"conistonwater","id":8606216,"kids":[8606511,8606487,8606354,8606392,8606282,8606558,8606620,8606846,8606607,8606327,8606387,8606864,8606494],"score":57,"text":"","time":1415951308,"title":"Forex
+      string: '{"by":"conistonwater","id":8606216,"kids":[8606487,8606511,8606354,8606392,8606282,8606558,8606620,8606846,8606327,8606607,8606387,8606864,8606494],"score":59,"text":"","time":1415951308,"title":"Forex
         Investors May Face $1B Loss as Trade Site Vanishes","type":"story","url":"http://www.bloomberg.com/news/2014-11-13/forex-investors-may-face-1-billion-loss-as-trade-site-vanishes.html"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:50 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:03 GMT
 - request:
     method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606895.json
+    uri: https://hacker-news.firebaseio.com/v0/item/8598324.json
     body:
       encoding: US-ASCII
       string: ''
@@ -1970,17 +2454,257 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '192'
+      - '229'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"hanula","id":8606895,"score":3,"text":"","time":1415970001,"title":"Philae:
-        The Biggest Jump Ever","type":"story","url":"http://blog.wolfspelz.de/2014/11/philae-biggest-jump-ever.html"}'
+      string: '{"by":"jbegley","id":8598324,"kids":[8598966,8598976,8598561,8600114,8601629,8599548],"score":194,"text":"","time":1415827703,"title":"Son
+        of Stuxnet","type":"story","url":"https://firstlook.org/theintercept/2014/11/12/stuxnet/"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:50 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:03 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606359.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '260'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"pmcpinto","id":8606359,"kids":[8606741,8606904,8607775,8606686,8607161,8607528],"score":48,"text":"","time":1415955709,"title":"The
+        High Cost of Oil","type":"story","url":"http://www.outsideonline.com/outdoor-adventure/nature/The-High-Cost-of-Oil.html"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:04 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606928.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '251'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"spencerwalden","id":8606928,"kids":[8607874,8607392],"score":14,"text":"","time":1415970740,"title":"Bootstrapping
+        my way to 80k, the start of my startup adventure","type":"story","url":"http://www.spencer-walden.com/bootstrapping-way-80-000/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:04 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8601337.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '255'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"deng","id":8601337,"kids":[8603789,8603677,8603765,8603853,8603824,8604120],"score":192,"text":"","time":1415884851,"title":"Welcome,
+        New Emacs Developers","type":"story","url":"http://lars.ingebrigtsen.no/2014/11/13/welcome-new-emacs-developers/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:05 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8600830.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '363'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"jbogp","id":8600830,"kids":[8601269,8601030,8600840,8600908,8601002,8601031,8600915,8601451,8602675,8601104,8601236,8601922,8601998,8601430,8600935,8602678,8601170,8602306,8601064,8602000,8602679],"score":385,"text":"","time":1415875148,"title":"Welcome
+        to a comet","type":"story","url":"http://www.esa.int/spaceinimages/Images/2014/11/Welcome_to_a_comet"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:05 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607565.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '260'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"ABS","id":8607565,"kids":[8608286],"score":6,"text":"","time":1415979274,"title":"Microsoft
+        must finish the job of opening .Net","type":"story","url":"http://www.infoworld.com/article/2847372/open-source-software/microsoft-must-finish-opening-net.html"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:05 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607499.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '298'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImNvcnJlY3RpZmllciIsImlkIjo4NjA3NDk5LCJzY29yZSI6NSwi
+        dGV4dCI6IiIsInRpbWUiOjE0MTU5Nzg0NjYsInRpdGxlIjoiSG93IDE4IGlu
+        bWF0ZXMgYXQgQ2FsaWZvcm5pYeKAmXMgbm90b3Jpb3VzIFNhbiBRdWVudGlu
+        IHByaXNvbiBsZWFybiB0byBjb2RlIiwidHlwZSI6InN0b3J5IiwidXJsIjoi
+        aHR0cDovL2Fyc3RlY2huaWNhLmNvbS90ZWNoLXBvbGljeS8yMDE0LzExL2hv
+        dy0xOC1pbm1hdGVzLWF0LWNhbGlmb3JuaWFzLW5vdG9yaW91cy1zYW4tcXVl
+        bnRpbi1wcmlzb24tbGVhcm4tdG8tY29kZS8ifQ==
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:06 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8601985.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '342'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"charlie_vill","id":8601985,"kids":[8603965,8604106,8605068,8605651,8604368,8604665,8603816,8606234,8603720,8604674,8604185],"score":156,"text":"","time":1415892787,"title":"Larry
+        Page is making huge bets on new technology","type":"story","url":"http://fortune.com/2014/11/13/googles-larry-page-the-most-ambitious-ceo-in-the-universe/"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:06 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8606401.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '183'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"ledil","id":8606401,"score":6,"text":"","time":1415957534,"title":"Show
+        HN: A beautiful Reddit/producthunt clone","type":"story","url":"http://www.produktfang.de/room/gadgets"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:07 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8607069.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '249'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"gorkemcetin","id":8607069,"score":8,"text":"","time":1415973087,"title":"Show
+        HN: We open sourced our push notifications dashboard and SDKs","type":"story","url":"http://blog.count.ly/post/102608729498/introducing-countly-push-notifications"}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 17:55:07 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607637.json
@@ -2012,7 +2736,7 @@ http_interactions:
         LWNvbnRpbnVlLXRvLXNwb2lsLXVzLWRvbnQtZm9yZ2V0LXRoYXQtaW5kaWUt
         ZGV2ZWxvcGVycy1kZXNlcnZlLXRvLWdldC1wYWlkLyJ9
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:50 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:07 GMT
 - request:
     method: get
     uri: https://hacker-news.firebaseio.com/v0/item/8607635.json
@@ -2028,710 +2752,15 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '173'
+      - '190'
       Content-Type:
       - application/json; charset=utf-8
       Cache-Control:
       - no-cache
     body:
       encoding: UTF-8
-      string: '{"by":"robin_reala","id":8607635,"score":3,"time":1415979941,"title":"RTX2010
+      string: '{"by":"robin_reala","id":8607635,"kids":[8608287],"score":3,"time":1415979941,"title":"RTX2010
         (Forth processor used in Philae)","type":"story","url":"https://en.wikipedia.org/wiki/RTX2010"}'
     http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:51 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8601337.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '255'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"deng","id":8601337,"kids":[8603789,8603677,8603765,8603853,8603824,8604120],"score":191,"text":"","time":1415884851,"title":"Welcome,
-        New Emacs Developers","type":"story","url":"http://lars.ingebrigtsen.no/2014/11/13/welcome-new-emacs-developers/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:51 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607565.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '243'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"ABS","id":8607565,"score":5,"text":"","time":1415979274,"title":"Microsoft
-        must finish the job of opening .Net","type":"story","url":"http://www.infoworld.com/article/2847372/open-source-software/microsoft-must-finish-opening-net.html"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:52 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606261.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '169'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"enos_feedler","id":8606261,"kids":[8607098],"score":8,"text":"","time":1415952707,"title":"Rust
-        Pathtracer","type":"story","url":"http://msinilo.pl/blog/?p=1269"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:52 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607387.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '205'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"seansh","id":8607387,"score":4,"text":"","time":1415977192,"title":"Qt
-        Improvements Forthcoming for HiDPI Displays","type":"story","url":"http://www.phoronix.com/scan.php?page=news_item&px=MTgzODg"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:54 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8602988.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '296'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"dsr12","id":8602988,"kids":[8604478,8604546,8607534,8604590,8604577,8606551,8605320,8604301,8604322,8604537,8605173,8604529],"score":59,"text":"","time":1415902153,"title":"Google''s
-        MathFu: a x-platform geometry math library for C++","type":"story","url":"http://google.github.io/mathfu/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:54 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605142.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '252'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJieSI6ImdyZWdjaHJpc3RpYW4iLCJpZCI6ODYwNTE0Miwia2lkcyI6Wzg2
-        MDU4OTYsODYwNTI2MCw4NjA1MzUxLDg2MDU4NTUsODYwNTQwMCw4NjA1NTM5
-        LDg2MDU2MjcsODYwNTM3OV0sInNjb3JlIjozOCwidGV4dCI6IiIsInRpbWUi
-        OjE0MTU5MjU0NDAsInRpdGxlIjoiQWNvcm5zIOKAkyBBdXRvbWF0aWNhbGx5
-        IEludmVzdCBZb3VyIFNwYXJlIENoYW5nZSIsInR5cGUiOiJzdG9yeSIsInVy
-        bCI6Imh0dHA6Ly93d3cuYWNvcm5zLmNvbSJ9
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:55 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8596173.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '879'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"talltofu","id":8596173,"kids":[8596494,8597103,8596551,8596357,8597123,8596384,8596373,8596241,8596315,8597963,8596732,8596233,8596304,8596375,8596471,8596335,8597708,8596708,8597127,8600881,8599683,8596805,8596441,8597839,8598206,8600797,8596303,8596265],"score":1157,"text":"Live
-        coverage here http:&#x2F;&#x2F;news.yahoo.com&#x2F;video&#x2F;abc-news-plus-special-report-220000361.html<p>Thanks
-        @brianpgordon - Check out this gif of the orbital maneuvers required for Rosetta
-        to reach its destination: https:&#x2F;&#x2F;i.imgur.com&#x2F;TUkKuhf.gif<p>Live
-        twitter feed of ESA https:&#x2F;&#x2F;twitter.com&#x2F;esaoperations<p>It
-        looks like @Philae2014 made a fairly gentle touch down on #67P based on amount
-        of landing gear damping #CometLanding","time":1415808505,"title":"Philae has
-        landed","type":"story","url":"http://www.bbc.com/news/science-environment-30026398"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:55 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8601357.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '416'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"bmoresbest55","id":8601357,"kids":[8605617,8605091,8606007,8604757,8603865,8604208,8605024,8601691,8605093,8604221,8603806,8604404,8603542,8604342,8604073,8605000],"score":84,"text":"","time":1415885083,"title":"Online
-        Labs Designed Its Own ARM Servers To Take On AWS, DigitalOcean","type":"story","url":"http://techcrunch.com/2014/11/13/online-labs-designed-its-own-arm-servers-to-take-on-aws-digitalocean/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:56 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605885.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '207'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJieSI6InJheXZlZ2EiLCJpZCI6ODYwNTg4NSwic2NvcmUiOjEyLCJ0ZXh0
-        IjoiIiwidGltZSI6MTQxNTk0MTM5OCwidGl0bGUiOiLigJxIZWxsbyB3b3Js
-        ZOKAnSBpcyB0aGUgaGFyZCBwYXJ0IiwidHlwZSI6InN0b3J5IiwidXJsIjoi
-        aHR0cDovL3d3dy5qb2huZGNvb2suY29tL2Jsb2cvMjAxNC8xMS8xMi9oZWxs
-        by13b3JsZC1pcy10aGUtaGFyZC1wYXJ0LyJ9
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:56 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8603082.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '281'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"ryan_j_naughton","id":8603082,"kids":[8604762,8605488,8605585,8604937],"score":47,"time":1415903117,"title":"Why
-        It Might Be Time to Rethink the Rules of Parole","type":"story","url":"http://fivethirtyeight.com/features/why-it-might-be-time-to-rethink-the-rules-of-parole/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:56 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607369.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '164'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"abdophoto","id":8607369,"score":6,"text":"","time":1415976991,"title":"Keep
-        your Inbox, Google","type":"story","url":"http://thetechblock.com/google-inbox/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:57 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606209.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '203'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"mlla","id":8606209,"score":7,"text":"","time":1415951118,"title":"An
-        Implementation of DeepMind''s Neural Turing Machines","type":"story","url":"https://github.com/shawntan/neural-turing-machines"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:57 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605950.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '201'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"matm","id":8605950,"score":1,"text":"","time":1415943468,"title":"Heap
-        (YC W13) is hiring engineers to build large-scale data infrastructure","type":"job","url":"https://heapanalytics.com/jobs"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:58 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8601441.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '259'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"pmcpinto","id":8601441,"kids":[8603891,8603705],"score":60,"text":"","time":1415886466,"title":"The
-        Illusion Machine That Teaches Us How We See","type":"story","url":"http://nautil.us/issue/19/illusions/the-illusion-machine-that-teaches-us-how-we-see"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:58 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606728.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '216'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJieSI6InNjYXJ5Z2xpZGVycyIsImlkIjo4NjA2NzI4LCJraWRzIjpbODYw
-        Njc5Niw4NjA3NzI4XSwic2NvcmUiOjMsInRleHQiOiIiLCJ0aW1lIjoxNDE1
-        OTY2ODU1LCJ0aXRsZSI6IlNob3cgSE46IEdVSSBjb25maWd1cmF0aW9uIGZv
-        ciBYcmRwIOKAkyBYUkRQQ29uZmlndXJhdG9yIiwidHlwZSI6InN0b3J5Iiwi
-        dXJsIjoiaHR0cHM6Ly94cmRwY29uZmlndXJhdG9yLmNvbSJ9
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:58 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8599079.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '242'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"bobbles","id":8599079,"kids":[8599460,8599817,8599513,8599486,8600400,8599894,8599449,8601083,8599701],"score":163,"text":"","time":1415836155,"title":"Two
-        Microsofts","type":"story","url":"http://stratechery.com/2014/two-microsofts/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:59 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606100.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '318'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"gordon_freeman","id":8606100,"score":7,"text":"","time":1415947902,"title":"Net
-        Neutrality Review Could Give Comcast an Out in the Time Warner Cable Deal","type":"story","url":"http://dealbook.nytimes.com/2014/11/13/net-neutrality-review-could-give-comcast-an-out-in-the-time-warner-cable-deal/?ref=technology"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:30:59 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606405.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '222'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"sytelus","id":8606405,"score":6,"text":"","time":1415957685,"title":"How
-        Russian Hackers Stole the Nasdaq","type":"story","url":"http://www.businessweek.com/articles/2014-07-17/how-russian-hackers-stole-the-nasdaq"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:00 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607069.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '249'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"gorkemcetin","id":8607069,"score":8,"text":"","time":1415973087,"title":"Show
-        HN: We open sourced our push notifications dashboard and SDKs","type":"story","url":"http://blog.count.ly/post/102608729498/introducing-countly-push-notifications"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:00 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607434.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '255'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"T-A","id":8607434,"score":3,"text":"","time":1415977802,"title":"Reclusive
-        EBay Billionaire Lived for Years in Second Life","type":"story","url":"http://www.businessinsider.com/ebay-founder-pierre-omidyars-second-life-avatar-kitto-mandala-2014-11"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:01 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8601975.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '406'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"nilmonibasak","id":8601975,"kids":[8602416,8602652,8602351,8603132,8602251,8603359,8602486,8602437,8603201,8602589,8602385,8603641,8602871,8602736,8604406,8603682,8602721,8602405,8602434,8602397],"score":229,"text":"","time":1415892675,"title":"Why
-        I Walked Away From a $12M Acquisition Offer 18 Months After Our Launch","type":"story","url":"http://www.groovehq.com/blog/startup-acquisition-offer"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:01 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8607411.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '212'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"kuida0r3","id":8607411,"score":4,"text":"","time":1415977505,"title":"Project
-        Galileo: DDoS attack protection for at-risk public interest websites","type":"story","url":"http://www.cloudflare.com/galileo"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:01 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8606613.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '223'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"shalmanese","id":8606613,"score":3,"text":"","time":1415963654,"title":"Travis
-        Kalanick: The Smartest Bro in the Room","type":"story","url":"http://www.modernluxury.com/san-francisco/story/the-smartest-bro-the-room"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:02 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8605989.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '323'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"mavenave","id":8605989,"kids":[8607591],"score":12,"text":"","time":1415944478,"title":"How
-        a nerdy kid from nowhere self-published and got noticed by Larry Page","type":"story","url":"http://www.federicopistono.org/blog/how-a-nerdy-kid-from-nowhere-self-published-a-best-seller-and-got-noticed-by-google-ceo-larry"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:02 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8598827.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '265'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"ryan_j_naughton","id":8598827,"kids":[8600413,8599733,8600872,8600793,8599813,8605363,8600650,8600511,8601435],"score":97,"time":1415832973,"title":"The
-        Invention of Sliced Bread","type":"story","url":"http://priceonomics.com/the-invention-of-sliced-bread/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:03 GMT
-- request:
-    method: get
-    uri: https://hacker-news.firebaseio.com/v0/item/8603017.json
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Typhoeus - https://github.com/typhoeus/typhoeus
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '359'
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-    body:
-      encoding: UTF-8
-      string: '{"by":"tacon","id":8603017,"kids":[8603688,8603474,8603579,8603783,8603412,8603564,8604861,8603674,8604769,8604046,8603442,8603991,8603768],"score":69,"time":1415902441,"title":"That
-        Time Buffett Smashed the Efficient Market Hypothesis","type":"story","url":"http://thereformedbroker.com/2014/01/03/that-time-buffett-smashed-the-efficient-market-hypothesis/"}'
-    http_version: 
-  recorded_at: Fri, 14 Nov 2014 16:31:03 GMT
+  recorded_at: Fri, 14 Nov 2014 17:55:08 GMT
 recorded_with: VCR 2.9.3

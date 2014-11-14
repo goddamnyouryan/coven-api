@@ -9,11 +9,11 @@ describe Source::HackerNews do
     let(:object) { Source::HackerNews.new }
 
     it 'returns an array of feed items', :vcr do
-      feed_items = object.feed_items
+      items = object.translate
 
-      expect(feed_items).to be_present
+      expect(items).to be_present
 
-      feed_items.each do |item|
+      items.each do |item|
         expect(item).to have_key(:url)
         expect(item).to have_key(:title)
         expect(item).to have_key(:comments)

@@ -1,15 +1,7 @@
 module Source
   class Lobsters < Base
     def feed_items
-      get('hottest').each do |json|
-        @items << attribute_map(json)
-      end
-
-      @items
-    end
-
-    def item_ids
-      get 'topstories'
+      get('hottest')
     end
 
     def attribute_map(item)
