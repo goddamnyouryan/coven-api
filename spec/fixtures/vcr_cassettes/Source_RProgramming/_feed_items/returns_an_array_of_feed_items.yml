@@ -1,0 +1,395 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.reddit.com/r/programming.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 14 Nov 2014 18:24:56 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd5144721ad482c729f23b71cd22c64b31415989496; expires=Sat, 14-Nov-15
+        18:24:56 GMT; path=/; domain=.reddit.com; HttpOnly
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - accept-encoding
+      X-Moose:
+      - majestic
+      Cache-Control:
+      - no-cache
+      Cf-Cache-Status:
+      - EXPIRED
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 18953faecc740079-LAX
+    body:
+      encoding: UTF-8
+      string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+        "data": {"domain": "bits.blogs.nytimes.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2m9a1a", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "sidcool1234", "media": null, "score": 1103, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2m9a1a", "permalink": "/r/programming/comments/2m9a1a/the_amturing_award_is_often_called_the_nobel/",
+        "stickied": false, "created": 1415970365.0, "url": "http://bits.blogs.nytimes.com/2014/11/13/google-lifts-the-turing-award-into-nobel-territory/?ref=reddit.technology&amp;_r=0",
+        "author_flair_text": null, "title": "The A.M.Turing Award is often called
+        the Nobel prize of computer science. Now, thanks to Google\u2018s largesse,
+        it will be a Nobel-level prize financially: $1 million.", "created_utc": 1415941565.0,
+        "ups": 1103, "num_comments": 55, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "code.google.com", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2m9jif", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "alexeyr", "media": null, "score": 67, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2m9jif", "permalink": "/r/programming/comments/2m9jif/nodejs_production_release_ships_with_no_longer/",
+        "stickied": false, "created": 1415977422.0, "url": "https://code.google.com/p/v8/issues/detail?id=3692#c6",
+        "author_flair_text": null, "title": "Node.js production release ships with
+        no longer supported (by anyone) version of V8", "created_utc": 1415948622.0,
+        "ups": 67, "num_comments": 75, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "blog.codinghorror.com", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2m6lcs", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "instilledbee", "media": null, "score":
+        1286, "approved_by": null, "over_18": false, "hidden": false, "thumbnail":
+        "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved": false,
+        "is_self": false, "name": "t3_2m6lcs", "permalink": "/r/programming/comments/2m6lcs/code_tells_you_how_comments_tell_you_why/",
+        "stickied": false, "created": 1415889264.0, "url": "http://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/",
+        "author_flair_text": null, "title": "Code Tells You How, Comments Tell You
+        Why", "created_utc": 1415889264.0, "ups": 1286, "num_comments": 544, "visited":
+        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
+        {"domain": "arstechnica.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2magw2", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "ftbalcrazychoclatmad", "media": null, "score": 12, "approved_by": null, "over_18":
+        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2magw2",
+        "permalink": "/r/programming/comments/2magw2/how_18_inmates_at_californias_notorious_san/",
+        "stickied": false, "created": 1416007689.0, "url": "http://arstechnica.com/tech-policy/2014/11/how-18-inmates-at-californias-notorious-san-quentin-prison-learn-to-code/",
+        "author_flair_text": null, "title": "How 18 inmates at California''s notorious
+        San Quentin prison learn to code", "created_utc": 1415978889.0, "ups": 12,
+        "num_comments": 11, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "groups.google.com", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2m8q5y", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "superfunc", "media": null, "score": 130,
+        "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2m8q5y", "permalink": "/r/programming/comments/2m8q5y/go_moving_to_github/",
+        "stickied": false, "created": 1415958634.0, "url": "https://groups.google.com/forum/#!topic/golang-dev/sckirqOWepg",
+        "author_flair_text": null, "title": "Go Moving to Github", "created_utc":
+        1415929834.0, "ups": 130, "num_comments": 91, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "unews.utah.edu",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2map9u", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "tuxayo", "media":
+        null, "score": 5, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2map9u", "permalink": "/r/programming/comments/2map9u/scientists_create_a3_linux_open_source/",
+        "stickied": false, "created": 1416012319.0, "url": "http://unews.utah.edu/news_releases/self-repairing-software-tackles-bugs/",
+        "author_flair_text": null, "title": "Scientists create A3, Linux open source
+        self-repairing software for virtual machines, learns, prevents; blocked Shellshock
+        attacks in under 4 minutes[xpost from /r/linux]", "created_utc": 1415983519.0,
+        "ups": 5, "num_comments": 5, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "aws.amazon.com", "banned_by": null,
+        "media_embed": {}, "subreddit": "programming", "selftext_html": null, "selftext":
+        "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2m9a5z", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "sidcool1234", "media": null, "score": 40,
+        "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2m9a5z", "permalink": "/r/programming/comments/2m9a5z/aws_lambda/", "stickied":
+        false, "created": 1415970450.0, "url": "http://aws.amazon.com/lambda/", "author_flair_text":
+        null, "title": "AWS Lambda", "created_utc": 1415941650.0, "ups": 40, "num_comments":
+        10, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "sellarafaeli.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2manfb", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "dot_2", "media": null, "score": 1, "approved_by": null, "over_18":
+        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2manfb",
+        "permalink": "/r/programming/comments/2manfb/native_javascript_data_binding/",
+        "stickied": false, "created": 1416011335.0, "url": "http://www.sellarafaeli.com/blog/native_javascript_data_binding",
+        "author_flair_text": null, "title": "Native Javascript Data Binding", "created_utc":
+        1415982535.0, "ups": 1, "num_comments": 4, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "ruby-lang.org",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2mak2h", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "l1cache", "media":
+        null, "score": 1, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2mak2h", "permalink": "/r/programming/comments/2mak2h/ruby_215_released/",
+        "stickied": false, "created": 1416009507.0, "url": "https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/",
+        "author_flair_text": null, "title": "Ruby 2.1.5 Released", "created_utc":
+        1415980707.0, "ups": 1, "num_comments": 0, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "marak.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2ma95k", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "_Marak_", "media":
+        null, "score": 4, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2ma95k", "permalink": "/r/programming/comments/2ma95k/visual_opensource_cron_editor/",
+        "stickied": false, "created": 1416002766.0, "url": "http://marak.com/cron-editor/",
+        "author_flair_text": null, "title": "Visual Open-Source Cron Editor", "created_utc":
+        1415973966.0, "ups": 4, "num_comments": 21, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "drdobbs.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2m9j10", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "Resistor510", "media":
+        null, "score": 12, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2m9j10", "permalink": "/r/programming/comments/2m9j10/data_compression_with_arithmetic_encoding/",
+        "stickied": false, "created": 1415977001.0, "url": "http://www.drdobbs.com/cpp/data-compression-with-arithmetic-encodin/240169251",
+        "author_flair_text": null, "title": "Data Compression with Arithmetic Encoding",
+        "created_utc": 1415948201.0, "ups": 12, "num_comments": 2, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "jagt.github.io", "banned_by": null, "media_embed": {}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "2m6d1c", "gilded": 0,
+        "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "electronics-engineer", "media": null, "score": 247, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2m6d1c",
+        "permalink": "/r/programming/comments/2m6d1c/clumsy_01_clumsy_makes_your_network_condition_on/",
+        "stickied": false, "created": 1415911661.0, "url": "http://jagt.github.io/clumsy/index.html",
+        "author_flair_text": null, "title": "clumsy 0.1: clumsy makes your network
+        condition on Windows significantly worse, but in a managed and interactive
+        manner.", "created_utc": 1415882861.0, "ups": 247, "num_comments": 28, "visited":
+        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
+        {"domain": "googlecloudplatform.blogspot.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2mb00e", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "ithiru", "media": null, "score": 0, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2mb00e",
+        "permalink": "/r/programming/comments/2mb00e/affinitech_brings_affordable_and_userfriendly_big/",
+        "stickied": false, "created": 1416017995.0, "url": "http://googlecloudplatform.blogspot.com/2014/11/affini-tech-brings-affordable-and-user-Friendly-Big-Data-Analysis-to-Retailers-Using-Google-Cloud-Platform.html",
+        "author_flair_text": null, "title": "Affini-Tech Brings Affordable and User-Friendly
+        Big Data Analysis to Retailers, Using Google Cloud Platform", "created_utc":
+        1415989195.0, "ups": 0, "num_comments": 0, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "setosa.io",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2mayxo", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "davey_b", "media":
+        null, "score": 1, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2mayxo", "permalink": "/r/programming/comments/2mayxo/explained_visually_an_experiment_in_making_hard/",
+        "stickied": false, "created": 1416017427.0, "url": "http://setosa.io/ev/",
+        "author_flair_text": null, "title": "Explained Visually \u2014 an experiment
+        in making hard ideas intuitive", "created_utc": 1415988627.0, "ups": 1, "num_comments":
+        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "itunes.apple.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2maymc", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "davey_b", "media": null, "score": 0, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2maymc",
+        "permalink": "/r/programming/comments/2maymc/dash_the_developer_documentation_app_is_now/",
+        "stickied": false, "created": 1416017258.0, "url": "https://itunes.apple.com/us/app/dash-api-docs/id935284832?mt=8&amp;uo=4",
+        "author_flair_text": null, "title": "Dash (the developer documentation app)
+        is now available on iOS", "created_utc": 1415988458.0, "ups": 0, "num_comments":
+        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "lambdazen.wistia.com", "banned_by": null, "media_embed":
+        {"content": "&lt;iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fwr5dmime0n&amp;url=https%3A%2F%2Flambdazen.wistia.com%2Fmedias%2Fwr5dmime0n&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F8b784e00e0fb27f4c936842ff633b59114681b9e.jpg%3Fimage_crop_resized%3D1280x692&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=wistia\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": {"oembed": {"provider_url": "http://wistia.com", "title":
+        "KnockoutWithSam", "type": "video", "html": "&lt;iframe class=\"embedly-embed\"
+        src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fwr5dmime0n&amp;url=https%3A%2F%2Flambdazen.wistia.com%2Fmedias%2Fwr5dmime0n&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F8b784e00e0fb27f4c936842ff633b59114681b9e.jpg%3Fimage_crop_resized%3D1280x692&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=wistia\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "thumbnail_width": 1280, "height": 338, "width": 600, "version": "1.0", "provider_name":
+        "Wistia, Inc.", "thumbnail_url": "https://i.embed.ly/1/image?url=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F8b784e00e0fb27f4c936842ff633b59114681b9e.jpg%3Fimage_crop_resized%3D1280x692&amp;key=b1e305db91cf4aa5a86b732cc9fffceb",
+        "thumbnail_height": 692}, "type": "lambdazen.wistia.com"}, "link_flair_text":
+        null, "id": "2mauik", "gilded": 0, "secure_media_embed": {"content": "&lt;iframe
+        class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fwr5dmime0n&amp;url=https%3A%2F%2Flambdazen.wistia.com%2Fmedias%2Fwr5dmime0n&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F8b784e00e0fb27f4c936842ff633b59114681b9e.jpg%3Fimage_crop_resized%3D1280x692&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=wistia\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "clicked": false, "report_reasons":
+        null, "author": "lambdazen", "media": {"oembed": {"provider_url": "http://wistia.com",
+        "title": "KnockoutWithSam", "type": "video", "html": "&lt;iframe class=\"embedly-embed\"
+        src=\"//cdn.embedly.com/widgets/media.html?src=%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fwr5dmime0n&amp;url=https%3A%2F%2Flambdazen.wistia.com%2Fmedias%2Fwr5dmime0n&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F8b784e00e0fb27f4c936842ff633b59114681b9e.jpg%3Fimage_crop_resized%3D1280x692&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=wistia\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "thumbnail_width": 1280, "height": 338, "width": 600, "version": "1.0", "provider_name":
+        "Wistia, Inc.", "thumbnail_url": "https://embed-ssl.wistia.com/deliveries/8b784e00e0fb27f4c936842ff633b59114681b9e.jpg?image_crop_resized=1280x692",
+        "thumbnail_height": 692}, "type": "lambdazen.wistia.com"}, "score": 1, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2mauik", "permalink": "/r/programming/comments/2mauik/from_a_html_page_to_a_cloudhosted_app_in_2_mins/",
+        "stickied": false, "created": 1416015060.0, "url": "https://lambdazen.wistia.com/medias/wr5dmime0n",
+        "author_flair_text": null, "title": "From a HTML page to a cloud-hosted \u201capp\u201d
+        in 2 mins (KnockoutJS + ConceptJS)", "created_utc": 1415986260.0, "ups": 1,
+        "num_comments": 0, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "redbooth.com", "banned_by": null,
+        "media_embed": {}, "subreddit": "programming", "selftext_html": null, "selftext":
+        "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2matm2", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "bpedro", "media": null, "score": 0, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2matm2", "permalink": "/r/programming/comments/2matm2/default_browser_content_security_policy/",
+        "stickied": false, "created": 1416014579.0, "url": "https://redbooth.com/engineering/security/default-content-security-policy",
+        "author_flair_text": null, "title": "Default Browser Content Security Policy",
+        "created_utc": 1415985779.0, "ups": 0, "num_comments": 0, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "distributed.hamann.se", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2maqfi", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "endymi0n", "media": null, "score": 0, "approved_by": null, "over_18": false,
+        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2maqfi",
+        "permalink": "/r/programming/comments/2maqfi/dear_lucas_or_teach_yourself_programming_in_2190/",
+        "stickied": false, "created": 1416012911.0, "url": "http://distributed.hamann.se/blog/2014/11/14/dear-lucas/",
+        "author_flair_text": null, "title": "Dear Lucas (or: teach yourself programming
+        in 2190 days)", "created_utc": 1415984111.0, "ups": 0, "num_comments": 0,
+        "visited": false, "num_reports": null, "distinguished": null}}, {"kind": "t3",
+        "data": {"domain": "github.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2m962b", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "damian2000", "media": null, "score": 10, "approved_by": null, "over_18":
+        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2m962b",
+        "permalink": "/r/programming/comments/2m962b/thrust_chromiumbased_crossplatform_crosslanguage/",
+        "stickied": false, "created": 1415967765.0, "url": "https://github.com/breach/thrust/",
+        "author_flair_text": null, "title": "Thrust: Chromium-based cross-platform
+        / cross-language application framework", "created_utc": 1415938965.0, "ups":
+        10, "num_comments": 7, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "handmadehero.org", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2m78i7", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "landon_ricketts", "media": null, "score":
+        53, "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "",
+        "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved": false,
+        "is_self": false, "name": "t3_2m78i7", "permalink": "/r/programming/comments/2m78i7/handmade_hero/",
+        "stickied": false, "created": 1415930986.0, "url": "http://handmadehero.org",
+        "author_flair_text": null, "title": "Handmade Hero", "created_utc": 1415902186.0,
+        "ups": 53, "num_comments": 14, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "joshitech.blogspot.com", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2mahqw", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "joshir", "media": null, "score": 0, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2mahqw", "permalink": "/r/programming/comments/2mahqw/nginx_mutual_two_way_ssl_authentication_for/",
+        "stickied": false, "created": 1416008177.0, "url": "http://joshitech.blogspot.com/2014/11/nginx-mutual-two-way-ssl-authentication.html",
+        "author_flair_text": null, "title": "Nginx: Mutual (Two way) SSL authentication
+        for upstream HTTPS servers", "created_utc": 1415979377.0, "ups": 0, "num_comments":
+        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "siondream.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2m7x2l", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "siondream", "media": null, "score": 26, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2m7x2l",
+        "permalink": "/r/programming/comments/2m7x2l/new_book_libgdx_crossplatform_game_development/",
+        "stickied": false, "created": 1415943458.0, "url": "http://siondream.com/blog/general/libgdx-for-cross-platform-game-development-cookbook-is-out/",
+        "author_flair_text": null, "title": "New book: Libgdx Cross-platform Game
+        Development Cookbook", "created_utc": 1415914658.0, "ups": 26, "num_comments":
+        1, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "robots.thoughtbot.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2m72si", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "calthomp", "media": null, "score": 49, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2m72si",
+        "permalink": "/r/programming/comments/2m72si/why_fixed_bids_are_bad_for_clients_too/",
+        "stickied": false, "created": 1415928115.0, "url": "http://robots.thoughtbot.com/why-fixed-bids-are-bad-for-clients-too",
+        "author_flair_text": null, "title": "Why Fixed Bids Are Bad For Clients, Too",
+        "created_utc": 1415899315.0, "ups": 49, "num_comments": 2, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "blogs.msdn.com", "banned_by": null, "media_embed": {}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "2m2w3b", "gilded": 0,
+        "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "rionmonster", "media": null, "score": 4913, "approved_by": null, "over_18":
+        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2m2w3b",
+        "permalink": "/r/programming/comments/2m2w3b/the_net_core_is_now_opensource/",
+        "stickied": false, "created": 1415806947.0, "url": "http://blogs.msdn.com/b/dotnet/archive/2014/11/12/net-core-is-open-source.aspx",
+        "author_flair_text": null, "title": "The .NET Core is now open-source.", "created_utc":
+        1415806947.0, "ups": 4913, "num_comments": 1882, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "thinkful.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2mar75", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "rantdurdenwu", "media":
+        null, "score": 0, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2mar75", "permalink": "/r/programming/comments/2mar75/uber_api_tutorial_build_a_party_invitation/",
+        "stickied": false, "created": 1416013317.0, "url": "http://www.thinkful.com/learn/uber-api/",
+        "author_flair_text": null, "title": "Uber API Tutorial: Build a Party Invitation",
+        "created_utc": 1415984517.0, "ups": 0, "num_comments": 0, "visited": false,
+        "num_reports": null, "distinguished": null}}], "after": "t3_2mar75", "before":
+        null}}'
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 18:24:57 GMT
+recorded_with: VCR 2.9.3
