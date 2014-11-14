@@ -30,7 +30,7 @@ module Source
     def attribute_map(item)
       {
         url: item['redirect_url'],
-        title: item['name'],
+        title: "#{item['name']} - #{item['tagline']}",
         comments: item['discussion_url'],
         external_created_at: DateTime.parse(item['created_at'])
       }
