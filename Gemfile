@@ -38,6 +38,8 @@ end
 group :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :production do

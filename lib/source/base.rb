@@ -1,6 +1,5 @@
 module Source
   class Base
-
     attr_reader :feed_items
 
     def feed_items
