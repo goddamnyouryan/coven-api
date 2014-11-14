@@ -1,6 +1,10 @@
 module Source
   class Base
-    attr_reader :feed_items
+    attr_reader :feed_items, :items
+
+    def initialize
+      @items = []
+    end
 
     def feed_items
       # Should return a json array of the items in the feed

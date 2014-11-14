@@ -2,6 +2,14 @@ require 'source/base'
 
 describe Source::Base do
 
+  describe '.new' do
+    let(:object) { Source::Base.new }
+
+    it 'creates an empty array called items' do
+      expect(object.items).to eq([])
+    end
+  end
+
   describe '.get' do
     let(:api) { 'http://www.example.com' }
     let(:url) { 'api' }
