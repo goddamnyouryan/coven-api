@@ -1,12 +1,12 @@
 require 'rails_helper'
 
-RSpec.describe StaticController, :type => :controller do
+RSpec.describe StaticController, type: :controller do
 
-  describe "GET index" do
-    it "returns http success" do
+  describe '/index' do
+    it 'returns a json error and directs you to the api url.' do
       get :index
-      expect(response).to have_http_status(:success)
+      json = JSON response.body
+      expect(json).to have_key('error')
     end
   end
-
 end
