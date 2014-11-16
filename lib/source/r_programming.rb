@@ -10,6 +10,7 @@ module Source
         url: item['url'],
         title: item['title'],
         comments: "http://www.reddit.com/#{item['permalink']}",
+        comment_count: item['num_comments'],
         external_created_at: Time.at(item['created'])
       }
     end

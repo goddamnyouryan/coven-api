@@ -9,6 +9,7 @@ module Source
         url: item['url'],
         title: item['title'],
         comments: item['comments_url'],
+        comment_count: item['comment_count'],
         external_created_at: DateTime.parse(item['created_at'])
       }
     end

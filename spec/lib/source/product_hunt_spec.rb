@@ -26,6 +26,7 @@ describe Source::ProductHunt do
         expect(item).to have_key(:url)
         expect(item).to have_key(:title)
         expect(item).to have_key(:comments)
+        expect(item).to have_key(:comment_count)
         expect(item).to have_key(:external_created_at)
       end
     end

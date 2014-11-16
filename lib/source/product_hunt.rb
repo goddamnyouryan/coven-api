@@ -32,6 +32,7 @@ module Source
         url: item['redirect_url'],
         title: "#{item['name']} - #{item['tagline']}",
         comments: item['discussion_url'],
+        comment_count: item['comments_count'],
         external_created_at: DateTime.parse(item['created_at'])
       }
     end

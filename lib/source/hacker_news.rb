@@ -18,6 +18,7 @@ module Source
         url: item['url'],
         title: item['title'],
         comments: "https://news.ycombinator.com/item?id=#{item['id']}",
+        comment_count: item.key?('kids') ? item['kids'].count : 0,
         external_created_at: Time.at(item['time'])
       }
     end
