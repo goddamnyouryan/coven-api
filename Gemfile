@@ -8,6 +8,7 @@ gem 'pg'
 gem 'unicorn'
 gem 'quiet_assets'
 gem 'typhoeus'
+gem 'rack-cors', require: 'rack/cors'
 
 group :development do
   gem 'lol_dba'
