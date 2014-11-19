@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :post do
-    source 'HackerNews'
+    source { Post.sources.sample.name.demodulize }
     sequence(:url) {|n| "http://www.example-#{n}.com" }
     title 'A Post'
     comments 'http://www.example.com/comments'
