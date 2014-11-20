@@ -9,6 +9,7 @@ gem 'unicorn'
 gem 'quiet_assets'
 gem 'typhoeus'
 gem 'rack-cors', require: 'rack/cors'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'lol_dba'
