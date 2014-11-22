@@ -10,6 +10,7 @@ gem 'quiet_assets'
 gem 'typhoeus'
 gem 'rack-cors', require: 'rack/cors'
 gem 'newrelic_rpm'
+gem 'delayed_job_active_record'
 
 group :development do
   gem 'lol_dba'
@@ -33,4 +34,5 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'workless'
 end
