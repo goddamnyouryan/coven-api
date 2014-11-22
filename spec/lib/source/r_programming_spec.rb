@@ -12,13 +12,13 @@ describe Source::RProgramming do
       items = object.translate
 
       expect(items).to be_present
-
-      items.each do |item|
+      items.each_with_index do |item, index|
         expect(item).to have_key(:url)
         expect(item).to have_key(:title)
         expect(item).to have_key(:comments)
         expect(item).to have_key(:comment_count)
         expect(item).to have_key(:external_created_at)
+        expect(item[:external_created_at] > Time.current).to be(false)
       end
     end
   end
