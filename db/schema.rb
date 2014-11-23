@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141122182934) do
+ActiveRecord::Schema.define(version: 20141123202347) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20141122182934) do
   create_table "posts", force: true do |t|
     t.string   "source"
     t.integer  "position"
-    t.string   "url"
+    t.text     "url"
     t.string   "title"
     t.string   "comments"
     t.datetime "external_created_at"
