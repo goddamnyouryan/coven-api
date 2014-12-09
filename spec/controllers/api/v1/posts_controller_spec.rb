@@ -18,9 +18,9 @@ RSpec.describe Api::V1::PostsController, type: :controller do
 
         json.each do |hash|
           expect(hash).to have_key('source')
-          expect(hash['source']).to have_key('name')
-          expect(hash['source']).to have_key('color')
-          expect(hash['source']).to have_key('symbol')
+          expect(hash['source_data']).to have_key('name')
+          expect(hash['source_data']).to have_key('color')
+          expect(hash['source_data']).to have_key('symbol')
         end
       end
     end
