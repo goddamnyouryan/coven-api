@@ -1,5 +1,14 @@
 module Source
   class HackerNews < Base
+
+    def self.color
+      '#EB974E'
+    end
+
+    def self.symbol
+      'Y'
+    end
+
     def feed_items
       items = []
       item_ids.each do |item|

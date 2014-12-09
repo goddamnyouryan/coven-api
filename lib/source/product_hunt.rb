@@ -7,6 +7,14 @@ module Source
       @token = post('oauth/token', token_options)['access_token']
     end
 
+    def self.color
+      '#DA552F'
+    end
+
+    def self.symbol
+      'P'
+    end
+
     def token_options
       {
         client_id: ENV['PRODUCT_HUNT_CLIENT'],

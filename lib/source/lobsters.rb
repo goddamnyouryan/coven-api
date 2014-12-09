@@ -1,5 +1,14 @@
 module Source
   class Lobsters < Base
+
+    def self.color
+      '#96281B'
+    end
+
+    def self.symbol
+      'L'
+    end
+
     def feed_items
       get('hottest')
     end

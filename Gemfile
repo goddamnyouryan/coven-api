@@ -11,6 +11,7 @@ gem 'typhoeus'
 gem 'rack-cors', require: 'rack/cors'
 gem 'newrelic_rpm'
 gem 'delayed_job_active_record'
+gem 'jbuilder', '~> 2.0'
 
 group :development do
   gem 'lol_dba'

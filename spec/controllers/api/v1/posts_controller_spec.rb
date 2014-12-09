@@ -15,6 +15,13 @@ RSpec.describe Api::V1::PostsController, type: :controller do
         @posts.each do |post|
           expect(ids).to include(post.id)
         end
+
+        json.each do |hash|
+          expect(hash).to have_key('source')
+          expect(hash['source']).to have_key('name')
+          expect(hash['source']).to have_key('color')
+          expect(hash['source']).to have_key('symbol')
+        end
       end
     end
 

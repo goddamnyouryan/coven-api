@@ -70,6 +70,9 @@ GEM
       multi_json (~> 1.8)
     hike (1.2.3)
     i18n (0.6.11)
+    jbuilder (2.2.4)
+      activesupport (>= 3.0.0, < 5)
+      multi_json (~> 1.2)
     json (1.8.1)
     kgio (2.9.2)
     lol_dba (1.6.4)
@@ -189,6 +192,7 @@ DEPENDENCIES
   delayed_job_active_record
   dotenv-rails
   factory_girl_rails
+  jbuilder (~> 2.0)
   lol_dba
   newrelic_rpm
   pg

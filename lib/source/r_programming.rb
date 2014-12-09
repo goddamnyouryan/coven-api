@@ -5,6 +5,14 @@ module Source
       get('programming')['data']['children'].map {|json| json['data'] }
     end
 
+    def self.color
+      '#59ABE3'
+    end
+
+    def self.symbol
+      'r'
+    end
+
     def attribute_map(item)
       {
         url: item['url'],

@@ -6,6 +6,14 @@ module Source
       ObjectSpace.each_object(::Class).select {|klass| klass < self }
     end
 
+    def self.color
+      # string of hex number of brand color
+    end
+
+    def self.symbol
+      # string of brand symbol
+    end
+
     def feed_items
       # Should return a json array of the items in the feed
     end
