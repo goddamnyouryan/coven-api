@@ -3,7 +3,7 @@ class Post < ActiveRecord::Base
   validates :url, uniqueness: true
 
   def self.sync
-    Post.destroy_all
+    Post.delete_all
     sources.each do |source|
       source.new.translate.each_with_index do |hash, index|
         Post.create hash.merge(source: source.name.demodulize, position: index)
