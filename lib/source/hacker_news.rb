@@ -1,5 +1,6 @@
 module Source
   class HackerNews < Base
+    CONCURRENCY = 8
 
     def self.color
       '#EB974E'
@@ -10,12 +11,17 @@ module Source
     end
 
     def feed_items
-      items = []
-      item_ids.each do |item|
-        items << get("item/#{item.to_s}")
+      hydra = Typhoeus::Hydra.new(max_concurrency: CONCURRENCY)
+
+      requests = item_ids.map do |item|
+        request = Typhoeus::Request.new(url_for("item/#{item.to_s}"))
+        hydra.queue(request)
+        request
       end
 
-      items
+      hydra.run
+
+      requests.map { |request| JSON.parse(request.response.body) }
     end
 
     def item_ids

@@ -30,14 +30,18 @@ module Source
       # the base string of the url for the api
     end
 
-    def get(url, options = {}, headers = {})
-      response = Typhoeus.get(api + url + '.json', params: options, headers: headers)
+    def get(path, options = {}, headers = {})
+      response = Typhoeus.get(url_for(path), params: options, headers: headers)
       JSON.parse(response.body)
     end
 
-    def post(url, options = {})
-      response = Typhoeus.post(api + url + '.json', params: options)
+    def post(path, options = {})
+      response = Typhoeus.post(url_for(path), params: options)
       JSON.parse(response.body)
+    end
+
+    def url_for(path)
+      api + path + '.json'
     end
   end
 end
