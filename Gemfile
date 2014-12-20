@@ -12,6 +12,7 @@ gem 'rack-cors', require: 'rack/cors'
 gem 'newrelic_rpm'
 gem 'delayed_job_active_record'
 gem 'jbuilder', '~> 2.0'
+gem 'heroku'
 
 group :development do
   gem 'lol_dba'
