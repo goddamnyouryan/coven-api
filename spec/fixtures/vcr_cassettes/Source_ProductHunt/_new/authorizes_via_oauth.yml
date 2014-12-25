@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sat, 20 Dec 2014 20:44:20 GMT
+      - Thu, 25 Dec 2014 19:55:21 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -25,8 +25,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d3ef07fd7a02af0c4846be05c775d32661419108260; expires=Sun, 20-Dec-15
-        20:44:20 GMT; path=/; domain=.producthunt.com; HttpOnly
+      - __cfduid=dd57cec5cdbcdfdc0eacbca9dcc24975f1419537321; expires=Fri, 25-Dec-15
+        19:55:21 GMT; path=/; domain=.producthunt.com; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -38,18 +38,18 @@ http_interactions:
       Pragma:
       - no-cache
       Etag:
-      - '"8d2b1dfbce0bce2508b4c1f8d7ddd406"'
+      - '"0403f6fd6db5ec5c1d40184bfe8b6539"'
       X-Request-Id:
-      - 4dc3be1d-14e8-432d-bbdd-0c87e56dd34a
+      - 7ff8c108-a069-4c05-9174-6f3076bdb32f
       X-Runtime:
-      - '0.031919'
+      - '0.017636'
       Via:
       - 1.1 vegur
       Cf-Ray:
-      - 19bead63e6bc0075-LAX
+      - 19e798833dd0036e-LAX
     body:
       encoding: UTF-8
-      string: '{"access_token":"be2423cd6c74a319271f44a2256389644bffcfbcea349c861a438ee333a9e484","token_type":"bearer","expires_in":5184000,"scope":"public"}'
+      string: '{"access_token":"c79191dbdd21831376e68f57b787c2dd25950ae01e0826ac0c745bd656209b2b","token_type":"bearer","expires_in":5184000,"scope":"public"}'
     http_version: 
-  recorded_at: Sat, 20 Dec 2014 20:44:21 GMT
+  recorded_at: Thu, 25 Dec 2014 19:55:21 GMT
 recorded_with: VCR 2.9.3

@@ -11,7 +11,7 @@ describe Source::HackerNews do
     it 'returns an array of feed items', :vcr do
       items = object.translate
 
-      expect(items).to be_present
+      expect(items).not_to be_empty
 
       items.each do |item|
         expect(item).to have_key(:url)

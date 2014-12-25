@@ -15,7 +15,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 20 Dec 2014 20:44:22 GMT
+      - Thu, 25 Dec 2014 19:55:23 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -23,8 +23,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d5520ec68af891e32364c8caa144983f01419108262; expires=Sun, 20-Dec-15
-        20:44:22 GMT; path=/; domain=.reddit.com; HttpOnly
+      - __cfduid=d52968cf5ad67e08b387b7d8196211e951419537323; expires=Fri, 25-Dec-15
+        19:55:23 GMT; path=/; domain=.reddit.com; HttpOnly
       X-Ua-Compatible:
       - IE=edge
       X-Frame-Options:
@@ -46,334 +46,388 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19bead701d0d13d1-LAX
+      - 19e7988f00ca0076-LAX
     body:
       encoding: UTF-8
       string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
-        "data": {"domain": "nknetobserver.github.io", "banned_by": null, "media_embed":
-        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pwnle", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "mattylovesyou", "media": null, "score": 70, "approved_by":
-        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
-        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
-        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
-        "t3_2pwnle", "permalink": "/r/programming/comments/2pwnle/scans_of_north_korean_ip_space/",
-        "stickied": false, "created": 1419131654.0, "url": "http://nknetobserver.github.io/",
-        "author_flair_text": null, "title": "Scans of North Korean IP Space", "created_utc":
-        1419102854.0, "ups": 70, "num_comments": 8, "visited": false, "num_reports":
-        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "github.com",
-        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
-        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
-        "link_flair_text": null, "id": "2pvf68", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "report_reasons": null, "author": "logicchains", "media":
-        null, "score": 335, "approved_by": null, "over_18": false, "hidden": false,
-        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
-        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
-        false, "is_self": false, "name": "t3_2pvf68", "permalink": "/r/programming/comments/2pvf68/armv7_vs_x8664_pathfinding_benchmark_of_c_d_go/",
-        "stickied": false, "created": 1419094813.0, "url": "https://github.com/logicchains/LPATHBench/blob/master/writeup.md",
-        "author_flair_text": null, "title": "ARMv7 vs x86-64: Pathfinding benchmark
-        of C++, D, Go, Nim, Ocaml, and more.", "created_utc": 1419066013.0, "ups":
-        335, "num_comments": 191, "visited": false, "num_reports": null, "distinguished":
-        null}}, {"kind": "t3", "data": {"domain": "en.sfml-dev.org", "banned_by":
-        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
-        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "2pvwdz", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "report_reasons": null, "author": "mttd", "media": null, "score": 44, "approved_by":
-        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
-        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
-        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
-        "t3_2pvwdz", "permalink": "/r/programming/comments/2pvwdz/sfml_22_released/",
-        "stickied": false, "created": 1419113432.0, "url": "http://en.sfml-dev.org/forums/index.php?topic=17002.0",
-        "author_flair_text": null, "title": "SFML 2.2 Released!", "created_utc": 1419084632.0,
-        "ups": 44, "num_comments": 12, "visited": false, "num_reports": null, "distinguished":
-        null}}, {"kind": "t3", "data": {"domain": "mail.python.org", "banned_by":
-        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
-        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "2pw0hq", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "report_reasons": null, "author": "redditthinks", "media": null, "score":
-        29, "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "",
-        "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class": null,
-        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved": false,
-        "is_self": false, "name": "t3_2pw0hq", "permalink": "/r/programming/comments/2pw0hq/guido_van_rossum_on_type_hinting_in_python_35/",
-        "stickied": false, "created": 1419116850.0, "url": "https://mail.python.org/pipermail/python-ideas/2014-December/030430.html",
-        "author_flair_text": null, "title": "Guido van Rossum on type hinting in Python
-        3.5", "created_utc": 1419088050.0, "ups": 29, "num_comments": 19, "visited":
-        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
-        {"domain": "culvertsoft.github.io", "banned_by": null, "media_embed": {},
+        "data": {"domain": "ruby-lang.org", "banned_by": null, "media_embed": {},
         "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
         null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pwb3e", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "GiGurra", "media": null, "score": 7, "approved_by": null,
+        "2qcysh", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "sidcool1234", "media": null, "score": 140, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2qcysh", "permalink": "/r/programming/comments/2qcysh/ruby_220_released/",
+        "stickied": false, "created": 1419538729.0, "url": "https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/",
+        "author_flair_text": null, "title": "Ruby 2.2.0 released", "created_utc":
+        1419509929.0, "ups": 140, "num_comments": 19, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "gpfault.net",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2qbzic", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "nicebyte", "media":
+        null, "score": 483, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2qbzic", "permalink": "/r/programming/comments/2qbzic/intrusive_lists_in_doom_3/",
+        "stickied": false, "created": 1419503751.0, "url": "http://gpfault.net/posts/intrusive-lists-doom3.txt.html",
+        "author_flair_text": null, "title": "Intrusive Lists in Doom 3", "created_utc":
+        1419474951.0, "ups": 483, "num_comments": 133, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "robots.thoughtbot.com",
+        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
+        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
+        "link_flair_text": null, "id": "2qdb29", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "Croaky", "media":
+        null, "score": 18, "approved_by": null, "over_18": false, "hidden": false,
+        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
+        false, "is_self": false, "name": "t3_2qdb29", "permalink": "/r/programming/comments/2qdb29/handling_security_issues_in_open_source_projects/",
+        "stickied": false, "created": 1419551732.0, "url": "http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects",
+        "author_flair_text": null, "title": "Handling Security Issues In Open Source
+        Projects", "created_utc": 1419522932.0, "ups": 18, "num_comments": 0, "visited":
+        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
+        {"domain": "blogs.msdn.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2qcssw", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "logicchains", "media": null, "score": 55, "approved_by": null, "over_18":
+        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qcssw",
+        "permalink": "/r/programming/comments/2qcssw/typescript_14_to_support_union_types/",
+        "stickied": false, "created": 1419530544.0, "url": "http://blogs.msdn.com/b/typescript/archive/2014/11/18/what-s-new-in-the-typescript-type-system.aspx",
+        "author_flair_text": null, "title": "Typescript 1.4 to support union types",
+        "created_utc": 1419501744.0, "ups": 55, "num_comments": 28, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "cacm.acm.org", "banned_by": null, "media_embed": {}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "2qdiei", "gilded": 0,
+        "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "mcguire", "media": null, "score": 14, "approved_by": null, "over_18": false,
+        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qdiei",
+        "permalink": "/r/programming/comments/2qdiei/the_tears_of_donald_knuth_knuth_on_the_history_of/",
+        "stickied": false, "created": 1419557050.0, "url": "http://cacm.acm.org/magazines/2015/1/181633-the-tears-of-donald-knuth/fulltext",
+        "author_flair_text": null, "title": "The Tears of Donald Knuth: Knuth on the
+        history of computing", "created_utc": 1419528250.0, "ups": 14, "num_comments":
+        3, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "mrale.ph", "banned_by": null, "media_embed": {},
+        "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qduaz", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "alexeyr", "media": null, "score": 4, "approved_by": null,
         "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
         "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pwb3e",
-        "permalink": "/r/programming/comments/2pwb3e/mgen_mit_licensed_serialization_toolkit_for_c/",
-        "stickied": false, "created": 1419124050.0, "url": "http://culvertsoft.github.io/mgen/",
-        "author_flair_text": null, "title": "MGen - MIT licensed serialization toolkit
-        for C++, Java, JavaScript - First release", "created_utc": 1419095250.0, "ups":
-        7, "num_comments": 2, "visited": false, "num_reports": null, "distinguished":
-        null}}, {"kind": "t3", "data": {"domain": "jesg.github.io", "banned_by": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qduaz",
+        "permalink": "/r/programming/comments/2qduaz/how_the_grinch_stole_arraylength_access/",
+        "stickied": false, "created": 1419564758.0, "url": "http://mrale.ph/blog/2014/12/24/array-length-caching.html",
+        "author_flair_text": null, "title": "How the Grinch stole array.length access",
+        "created_utc": 1419535958.0, "ups": 4, "num_comments": 0, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "patternlanguage.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2qd7ym", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "justmilky", "media": null, "score": 7, "approved_by": null, "over_18": false,
+        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qd7ym",
+        "permalink": "/r/programming/comments/2qd7ym/the_origins_of_pattern_theory_the_future_of_the/",
+        "stickied": false, "created": 1419549038.0, "url": "http://www.patternlanguage.com/archive/ieee/ieeetext.htm",
+        "author_flair_text": null, "title": "The Origins of Pattern Theory: the Future
+        of the Theory, &amp; the Generation of a Living World", "created_utc": 1419520238.0,
+        "ups": 7, "num_comments": 2, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "moserware.com", "banned_by": null,
         "media_embed": {}, "subreddit": "programming", "selftext_html": null, "selftext":
         "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "2pvk5r", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "report_reasons": null, "author": "jesg_-_-", "media": null, "score": 13,
+        null, "id": "2q9utt", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "beltsazar", "media": null, "score": 1040,
         "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
         "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
         null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
-        "t3_2pvk5r", "permalink": "/r/programming/comments/2pvk5r/test_data_generation_with_prolog/",
-        "stickied": false, "created": 1419100358.0, "url": "http://jesg.github.io/testing/2014/12/20/test-data-generation-with-prolog.html",
-        "author_flair_text": null, "title": "Test Data Generation with Prolog", "created_utc":
-        1419071558.0, "ups": 13, "num_comments": 4, "visited": false, "num_reports":
-        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "voxxed.com",
-        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
-        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
-        "link_flair_text": null, "id": "2pwvhq", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "report_reasons": null, "author": "mikehaggard", "media":
-        null, "score": 2, "approved_by": null, "over_18": false, "hidden": false,
-        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
-        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
-        false, "is_self": false, "name": "t3_2pwvhq", "permalink": "/r/programming/comments/2pwvhq/whats_new_with_contexts_and_dependency_injection/",
-        "stickied": false, "created": 1419136299.0, "url": "https://www.voxxed.com/blog/2014/12/whats-new-contexts-dependency-injection-2-0",
-        "author_flair_text": null, "title": "What\u2019s New with Contexts and Dependency
-        Injection 2.0?", "created_utc": 1419107499.0, "ups": 2, "num_comments": 0,
+        "t3_2q9utt", "permalink": "/r/programming/comments/2q9utt/the_first_few_milliseconds_of_an_https_connection/",
+        "stickied": false, "created": 1419452792.0, "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html",
+        "author_flair_text": null, "title": "The First Few Milliseconds of an HTTPS
+        Connection", "created_utc": 1419423992.0, "ups": 1040, "num_comments": 36,
         "visited": false, "num_reports": null, "distinguished": null}}, {"kind": "t3",
-        "data": {"domain": "nuitka.net", "banned_by": null, "media_embed": {}, "subreddit":
-        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
-        [], "secure_media": null, "link_flair_text": null, "id": "2psa19", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
-        "woadwarrior", "media": null, "score": 512, "approved_by": null, "over_18":
-        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
-        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
-        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2psa19",
-        "permalink": "/r/programming/comments/2psa19/nuitka_a_python_compiler/", "stickied":
-        false, "created": 1419024034.0, "url": "http://nuitka.net/pages/overview.html",
-        "author_flair_text": null, "title": "Nuitka: a Python compiler", "created_utc":
-        1418995234.0, "ups": 512, "num_comments": 106, "visited": false, "num_reports":
-        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "elsealabs.com",
-        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
-        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
-        "link_flair_text": null, "id": "2ptkxd", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "report_reasons": null, "author": "MysteryForumGuy",
-        "media": null, "score": 107, "approved_by": null, "over_18": false, "hidden":
-        false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
-        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
-        false, "is_self": false, "name": "t3_2ptkxd", "permalink": "/r/programming/comments/2ptkxd/couldnt_find_an_eclipse_version_of_the_sublime/",
-        "stickied": false, "created": 1419050547.0, "url": "http://elsealabs.com/eclipse-keyboard-shortcuts/",
-        "author_flair_text": null, "title": "Couldn''t find an Eclipse version of
-        the Sublime Text post, so I made my own. Here are some useful Eclipse keyboard
-        shortcuts!", "created_utc": 1419021747.0, "ups": 107, "num_comments": 23,
-        "visited": false, "num_reports": null, "distinguished": null}}, {"kind": "t3",
-        "data": {"domain": "bitbashing.io", "banned_by": null, "media_embed": {},
-        "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pweyv", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "slavik262", "media": null, "score": 2, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pweyv",
-        "permalink": "/r/programming/comments/2pweyv/how_should_you_introduce_people_to_programming/",
-        "stickied": false, "created": 1419126395.0, "url": "http://bitbashing.io/education/2014/12/20/intro-to-programming.html",
-        "author_flair_text": null, "title": "How should you introduce people to programming?",
-        "created_utc": 1419097595.0, "ups": 2, "num_comments": 4, "visited": false,
-        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
-        "ericlippert.com", "banned_by": null, "media_embed": {}, "subreddit": "programming",
-        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
-        "secure_media": null, "link_flair_text": null, "id": "2pvp44", "gilded": 0,
-        "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
-        "technicolorNoise", "media": null, "score": 3, "approved_by": null, "over_18":
-        false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited":
-        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
-        0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pvp44",
-        "permalink": "/r/programming/comments/2pvp44/dynamic_contagion_type_inference_in_c/",
-        "stickied": false, "created": 1419106015.0, "url": "http://ericlippert.com/2012/11/09/dynamic-contagion-part-two/",
-        "author_flair_text": null, "title": "Dynamic contagion (Type inference in
-        C#)", "created_utc": 1419077215.0, "ups": 3, "num_comments": 0, "visited":
-        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
-        {"domain": "opensource.com", "banned_by": null, "media_embed": {}, "subreddit":
-        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
-        [], "secure_media": null, "link_flair_text": null, "id": "2pww2r", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
-        "greenrd", "media": null, "score": 0, "approved_by": null, "over_18": false,
-        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
-        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
-        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pww2r",
-        "permalink": "/r/programming/comments/2pww2r/how_microservices_and_containers_are_changing/",
-        "stickied": false, "created": 1419136655.0, "url": "http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony",
-        "author_flair_text": null, "title": "How microservices and containers are
-        changing applications", "created_utc": 1419107855.0, "ups": 0, "num_comments":
-        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
-        "t3", "data": {"domain": "eecs.harvard.edu", "banned_by": null, "media_embed":
+        "data": {"domain": "roaringbitmap.org", "banned_by": null, "media_embed":
         {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
         null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pwols", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "elserope", "media": null, "score": 0, "approved_by": null,
+        "2qduq7", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "alexeyr", "media": null, "score": 3, "approved_by": null,
         "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
         "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pwols",
-        "permalink": "/r/programming/comments/2pwols/do_you_know_of_any_super_memory_efficient_bloom/",
-        "stickied": false, "created": 1419132231.0, "url": "http://www.eecs.harvard.edu/~michaelm/NEWWORK/postscripts/cbf2.pdf",
-        "author_flair_text": null, "title": "Do you know of any super memory efficient
-        bloom filters. Are there any implementations that work on top of a compressed
-        bitset so that I can keep a huge bloom filter in memory? I hava found many
-        varieties but nothing like I described.", "created_utc": 1419103431.0, "ups":
-        0, "num_comments": 0, "visited": false, "num_reports": null, "distinguished":
-        null}}, {"kind": "t3", "data": {"domain": "blog.sethladd.com", "banned_by":
-        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
-        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
-        null, "id": "2pw840", "gilded": 0, "secure_media_embed": {}, "clicked": false,
-        "report_reasons": null, "author": "gedrap", "media": null, "score": 0, "approved_by":
-        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qduq7",
+        "permalink": "/r/programming/comments/2qduq7/roaring_bitmap_a_better_compressed_bitset/",
+        "stickied": false, "created": 1419565056.0, "url": "http://roaringbitmap.org/",
+        "author_flair_text": null, "title": "Roaring Bitmap: A better compressed bitset",
+        "created_utc": 1419536256.0, "ups": 3, "num_comments": 0, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "silent700.blogspot.com", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2qcvwy", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "henk53", "media": null, "score": 14, "approved_by": null, "over_18": false,
+        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qcvwy",
+        "permalink": "/r/programming/comments/2qcvwy/i_was_given_some_old_bbs_session_logs_and_i/",
+        "stickied": false, "created": 1419534774.0, "url": "http://silent700.blogspot.com/2014/12/is-this-something.html",
+        "author_flair_text": null, "title": "I was given some old BBS session logs
+        and I scanned them", "created_utc": 1419505974.0, "ups": 14, "num_comments":
+        1, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "vladmihalcea.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qcw9r", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "henk53", "media": null, "score": 9, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qcw9r",
+        "permalink": "/r/programming/comments/2qcw9r/a_beginners_guide_to_transaction_isolation_levels/",
+        "stickied": false, "created": 1419535276.0, "url": "http://vladmihalcea.com/2014/12/23/a-beginners-guide-to-transaction-isolation-levels-in-enterprise-java",
+        "author_flair_text": null, "title": "A beginner\u2019s guide to transaction
+        isolation levels", "created_utc": 1419506476.0, "ups": 9, "num_comments":
+        3, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "github.com", "banned_by": null, "media_embed": {},
+        "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qaxvs", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "DDoSQc", "media": null, "score": 118, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qaxvs",
+        "permalink": "/r/programming/comments/2qaxvs/gbaid_a_gameboy_advance_emulator_in_d/",
+        "stickied": false, "created": 1419478759.0, "url": "https://github.com/DDoS/GBAiD",
+        "author_flair_text": null, "title": "GBAiD: A GameBoy Advance emulator in
+        D", "created_utc": 1419449959.0, "ups": 118, "num_comments": 29, "visited":
+        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
+        {"domain": "youtube.com", "banned_by": null, "media_embed": {"content": "&lt;iframe
+        class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DUUnNyWBPF0AaCJsLPej214Dg&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVe-0Ov_hPDA%26list%3DUUnNyWBPF0AaCJsLPej214Dg&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FVe-0Ov_hPDA%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": {"type": "youtube.com", "oembed": {"provider_url": "http://www.youtube.com/",
+        "description": "Discovered lwjgl and slick about 2 months ago. Decided to
+        code my own physics engine from scratch!. This is a very early version. I
+        used lwjgl for all the matrix calculations to render pixels to the screen
+        and slick2d for its geometry rendering. What it includes so far: -Hooke''s
+        Law, Only Euler integration so far.", "title": "SolDuck Engine-Java Physics
+        Engine demonstration Build 1.1", "url": "http://www.youtube.com/watch?v=Ve-0Ov_hPDA",
+        "author_name": "David Solodukhin", "height": 338, "width": 600, "html": "&lt;iframe
+        class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DUUnNyWBPF0AaCJsLPej214Dg&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVe-0Ov_hPDA%26list%3DUUnNyWBPF0AaCJsLPej214Dg&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FVe-0Ov_hPDA%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "thumbnail_width": 480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url":
+        "https://i.embed.ly/1/image?url=http%3A%2F%2Fi.ytimg.com%2Fvi%2FVe-0Ov_hPDA%2Fhqdefault.jpg&amp;key=b1e305db91cf4aa5a86b732cc9fffceb",
+        "type": "video", "thumbnail_height": 360, "author_url": "http://www.youtube.com/user/2096megaman"}},
+        "link_flair_text": null, "id": "2qdvap", "gilded": 0, "secure_media_embed":
+        {"content": "&lt;iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DUUnNyWBPF0AaCJsLPej214Dg&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVe-0Ov_hPDA%26list%3DUUnNyWBPF0AaCJsLPej214Dg&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FVe-0Ov_hPDA%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "clicked": false, "report_reasons":
+        null, "author": "DavidSol", "media": {"type": "youtube.com", "oembed": {"provider_url":
+        "http://www.youtube.com/", "description": "Discovered lwjgl and slick about
+        2 months ago. Decided to code my own physics engine from scratch!. This is
+        a very early version. I used lwjgl for all the matrix calculations to render
+        pixels to the screen and slick2d for its geometry rendering. What it includes
+        so far: -Hooke''s Law, Only Euler integration so far.", "title": "SolDuck
+        Engine-Java Physics Engine demonstration Build 1.1", "url": "http://www.youtube.com/watch?v=Ve-0Ov_hPDA",
+        "author_name": "David Solodukhin", "height": 338, "width": 600, "html": "&lt;iframe
+        class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DUUnNyWBPF0AaCJsLPej214Dg&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVe-0Ov_hPDA%26list%3DUUnNyWBPF0AaCJsLPej214Dg&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FVe-0Ov_hPDA%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "thumbnail_width": 480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url":
+        "http://i.ytimg.com/vi/Ve-0Ov_hPDA/hqdefault.jpg", "type": "video", "thumbnail_height":
+        360, "author_url": "http://www.youtube.com/user/2096megaman"}}, "score": 0,
+        "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
         "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
         null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
-        "t3_2pw840", "permalink": "/r/programming/comments/2pw840/i_ported_a_javascript_app_to_dart_heres_what_i/",
-        "stickied": false, "created": 1419122149.0, "url": "http://blog.sethladd.com/2014/05/i-ported-javascript-app-to-dart-heres.html",
-        "author_flair_text": null, "title": "I ported a JavaScript app to Dart. Here''s
-        what I learned.", "created_utc": 1419093349.0, "ups": 0, "num_comments": 7,
-        "visited": false, "num_reports": null, "distinguished": null}}, {"kind": "t3",
-        "data": {"domain": "idiotinside.com", "banned_by": null, "media_embed": {},
-        "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pw547", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "sureshdsk", "media": null, "score": 0, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pw547",
-        "permalink": "/r/programming/comments/2pw547/get_battery_status_using_mozilla_webapi/",
-        "stickied": false, "created": 1419120145.0, "url": "http://www.idiotinside.com/2014/06/16/battery-status-using-mozilla-webapi/",
-        "author_flair_text": null, "title": "Get Battery Status using Mozilla WebAPI",
-        "created_utc": 1419091345.0, "ups": 0, "num_comments": 2, "visited": false,
-        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
-        "blog.underdog.io", "banned_by": null, "media_embed": {}, "subreddit": "programming",
-        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
-        "secure_media": null, "link_flair_text": null, "id": "2pt3qy", "gilded": 0,
-        "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
-        "chrismuir", "media": null, "score": 55, "approved_by": null, "over_18": false,
-        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
-        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
-        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pt3qy",
-        "permalink": "/r/programming/comments/2pt3qy/why_timehop_switched_from_ruby_to_go_inside_their/",
-        "stickied": false, "created": 1419041747.0, "url": "http://blog.underdog.io/post/105614784787/inside-timehops-tech-stack",
-        "author_flair_text": null, "title": "Why Timehop Switched From Ruby To Go
-        (Inside Their Stack)", "created_utc": 1419012947.0, "ups": 55, "num_comments":
-        98, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
-        "t3", "data": {"domain": "code.google.com", "banned_by": null, "media_embed":
-        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pvy1f", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "based2", "media": null, "score": 0, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pvy1f",
-        "permalink": "/r/programming/comments/2pvy1f/archimetrix_iterative_architecture_recovery_and/",
-        "stickied": false, "created": 1419114834.0, "url": "http://code.google.com/p/archimetrix/wiki/Introduction",
-        "author_flair_text": null, "title": "ArchiMetrix: Iterative Architecture Recovery
-        and Reengineering", "created_utc": 1419086034.0, "ups": 0, "num_comments":
-        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
-        "t3", "data": {"domain": "archimatetool.com", "banned_by": null, "media_embed":
-        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pvxrv", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "based2", "media": null, "score": 0, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pvxrv",
-        "permalink": "/r/programming/comments/2pvxrv/archimate_tool/", "stickied":
-        false, "created": 1419114600.0, "url": "http://www.archimatetool.com/", "author_flair_text":
-        null, "title": "archiMate Tool", "created_utc": 1419085800.0, "ups": 0, "num_comments":
-        3, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
-        "t3", "data": {"domain": "knewton.com", "banned_by": null, "media_embed":
-        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pt4j9", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "alexeyr", "media": null, "score": 44, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pt4j9",
-        "permalink": "/r/programming/comments/2pt4j9/eureka_why_you_shouldnt_use_zookeeper_for_service/",
-        "stickied": false, "created": 1419042151.0, "url": "https://www.knewton.com/tech/blog/2014/12/eureka-shouldnt-use-zookeeper-service-discovery/",
-        "author_flair_text": null, "title": "Eureka! Why You Shouldn''t Use ZooKeeper
-        for Service Discovery", "created_utc": 1419013351.0, "ups": 44, "num_comments":
-        1, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
-        "t3", "data": {"domain": "blog.joefallon.net", "banned_by": null, "media_embed":
-        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pst54", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "freebit", "media": null, "score": 50, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pst54",
-        "permalink": "/r/programming/comments/2pst54/great_discussion_on_why_dynamic_typing_is_popular/",
-        "stickied": false, "created": 1419036079.0, "url": "http://blog.joefallon.net/2014/11/why-is-dynamic-typing-so-popular/",
-        "author_flair_text": null, "title": "Great Discussion on Why Dynamic Typing
-        is Popular (see post comments)", "created_utc": 1419007279.0, "ups": 50, "num_comments":
-        133, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
-        "t3", "data": {"domain": "sites.google.com", "banned_by": null, "media_embed":
-        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
-        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
-        "2pwbga", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
-        null, "author": "elserope", "media": null, "score": 0, "approved_by": null,
-        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
-        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
-        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pwbga",
-        "permalink": "/r/programming/comments/2pwbga/is_there_a_compression_algorithm_for_an_array_of/",
-        "stickied": false, "created": 1419124264.0, "url": "https://sites.google.com/site/countminsketch/",
-        "author_flair_text": null, "title": "Is there a compression algorithm for
-        an array of integers (lossless or lossy) that allows you to modify the array
-        without having to uncompress the whole thing? I want to keep a compressed
-        Count-Min sketch in memory without having to decompress it all to add or remove
-        elements.", "created_utc": 1419095464.0, "ups": 0, "num_comments": 3, "visited":
-        false, "num_reports": null, "distinguished": null}}, {"kind": "t3", "data":
-        {"domain": "quip.com", "banned_by": null, "media_embed": {}, "subreddit":
-        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
-        [], "secure_media": null, "link_flair_text": null, "id": "2pvt87", "gilded":
-        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
-        "based2", "media": null, "score": 1, "approved_by": null, "over_18": false,
-        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
-        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
-        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2pvt87",
-        "permalink": "/r/programming/comments/2pvt87/the_theory_of_type_hinting/",
-        "stickied": false, "created": 1419110473.0, "url": "https://quip.com/r69HA9GhGa7J",
-        "author_flair_text": null, "title": "The Theory of Type Hinting", "created_utc":
-        1419081673.0, "ups": 1, "num_comments": 1, "visited": false, "num_reports":
-        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "blog.aaronholmes.net",
+        "t3_2qdvap", "permalink": "/r/programming/comments/2qdvap/began_learning_java_last_year_in_school_and/",
+        "stickied": false, "created": 1419565414.0, "url": "https://www.youtube.com/watch?v=Ve-0Ov_hPDA&amp;list=UUnNyWBPF0AaCJsLPej214Dg",
+        "author_flair_text": null, "title": "Began learning Java last year in school
+        and decided start coding my own physics engine with lwjgl.", "created_utc":
+        1419536614.0, "ups": 0, "num_comments": 0, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "impredicative.com",
         "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
         null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
-        "link_flair_text": null, "id": "2pvris", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "report_reasons": null, "author": "Cixis", "media":
-        null, "score": 1, "approved_by": null, "over_18": false, "hidden": false,
+        "link_flair_text": null, "id": "2qbdm0", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "darkfate", "media":
+        null, "score": 53, "approved_by": null, "over_18": false, "hidden": false,
         "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
         null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
-        false, "is_self": false, "name": "t3_2pvris", "permalink": "/r/programming/comments/2pvris/using_time_as_a_color_generator/",
-        "stickied": false, "created": 1419108712.0, "url": "http://blog.aaronholmes.net/using-time-as-a-color-generator/",
-        "author_flair_text": null, "title": "Using Time as a Color Generator", "created_utc":
-        1419079912.0, "ups": 1, "num_comments": 1, "visited": false, "num_reports":
-        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "medium.com",
+        false, "is_self": false, "name": "t3_2qbdm0", "permalink": "/r/programming/comments/2qbdm0/urweb_is_out_of_beta/",
+        "stickied": false, "created": 1419488148.0, "url": "http://www.impredicative.com/ur/",
+        "author_flair_text": null, "title": "Ur/web is out of beta", "created_utc":
+        1419459348.0, "ups": 53, "num_comments": 17, "visited": false, "num_reports":
+        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "github.com",
         "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
         null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
-        "link_flair_text": null, "id": "2pv704", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "report_reasons": null, "author": "aytekin", "media":
-        null, "score": 1, "approved_by": null, "over_18": false, "hidden": false,
-        "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
-        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
-        false, "is_self": false, "name": "t3_2pv704", "permalink": "/r/programming/comments/2pv704/how_to_implement_color_search/",
-        "stickied": false, "created": 1419086792.0, "url": "https://medium.com/jotform-form-builder/how-to-implement-color-search-96698bb5c659",
-        "author_flair_text": null, "title": "How to Implement Color Search", "created_utc":
-        1419057992.0, "ups": 1, "num_comments": 0, "visited": false, "num_reports":
-        null, "distinguished": null}}, {"kind": "t3", "data": {"domain": "idiotinside.com",
-        "banned_by": null, "media_embed": {}, "subreddit": "programming", "selftext_html":
-        null, "selftext": "", "likes": null, "user_reports": [], "secure_media": null,
-        "link_flair_text": null, "id": "2pwhty", "gilded": 0, "secure_media_embed":
-        {}, "clicked": false, "report_reasons": null, "author": "sureshdsk", "media":
+        "link_flair_text": null, "id": "2qdtcz", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "vishnevskiy", "media":
         null, "score": 0, "approved_by": null, "over_18": false, "hidden": false,
         "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false, "link_flair_css_class":
         null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "saved":
-        false, "is_self": false, "name": "t3_2pwhty", "permalink": "/r/programming/comments/2pwhty/60_cheatsheet_collection_for_full_stack_developers/",
-        "stickied": false, "created": 1419128194.0, "url": "http://www.idiotinside.com/2014/09/29/60-cheatsheet-collection-for-full-stack-developers/",
-        "author_flair_text": null, "title": "60 Cheatsheet Collection for Full Stack
-        Developers", "created_utc": 1419099394.0, "ups": 0, "num_comments": 0, "visited":
-        false, "num_reports": null, "distinguished": null}}], "after": "t3_2pwhty",
+        false, "is_self": false, "name": "t3_2qdtcz", "permalink": "/r/programming/comments/2qdtcz/elixirsublime_sublimetext_3_plugin_providing_code/",
+        "stickied": false, "created": 1419564143.0, "url": "https://github.com/vishnevskiy/ElixirSublime",
+        "author_flair_text": null, "title": "ElixirSublime - SublimeText 3 plugin
+        providing code completion and linting.", "created_utc": 1419535343.0, "ups":
+        0, "num_comments": 0, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "java-performance.info", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2qdrs6", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "_Sharp_", "media": null, "score": 1, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2qdrs6", "permalink": "/r/programming/comments/2qdrs6/performance_of_various_general_compression/",
+        "stickied": false, "created": 1419563106.0, "url": "http://java-performance.info/performance-general-compression/",
+        "author_flair_text": null, "title": "Performance of various general compression
+        algorithms - Java Performance Tuning Guide", "created_utc": 1419534306.0,
+        "ups": 1, "num_comments": 0, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "youtube.com", "banned_by": null,
+        "media_embed": {"content": "&lt;iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPL7275BCB775578E4B&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxC6jcLw25Go%26list%3DPL7275BCB775578E4B%26index%3D1&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FxC6jcLw25Go%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": {"type": "youtube.com", "oembed": {"provider_url": "http://www.youtube.com/",
+        "description": "better audio. there''s no documentation in this class. Arrrggghhh.
+        How to figure out how to do a specific task in the Connectors package.", "title":
+        "Squeak video tutorial reverse engineering documentation 0.0.0.46", "url":
+        "http://www.youtube.com/watch?v=xC6jcLw25Go", "author_name": "Lawson English",
+        "height": 338, "width": 600, "html": "&lt;iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPL7275BCB775578E4B&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxC6jcLw25Go%26list%3DPL7275BCB775578E4B%26index%3D1&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FxC6jcLw25Go%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "thumbnail_width": 480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url":
+        "https://i.embed.ly/1/image?url=http%3A%2F%2Fi.ytimg.com%2Fvi%2FxC6jcLw25Go%2Fhqdefault.jpg&amp;key=b1e305db91cf4aa5a86b732cc9fffceb",
+        "type": "video", "thumbnail_height": 360, "author_url": "http://www.youtube.com/user/sparaig"}},
+        "link_flair_text": null, "id": "2qcrpe", "gilded": 0, "secure_media_embed":
+        {"content": "&lt;iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPL7275BCB775578E4B&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxC6jcLw25Go%26list%3DPL7275BCB775578E4B%26index%3D1&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FxC6jcLw25Go%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "clicked": false, "report_reasons":
+        null, "author": "saijanai", "media": {"type": "youtube.com", "oembed": {"provider_url":
+        "http://www.youtube.com/", "description": "better audio. there''s no documentation
+        in this class. Arrrggghhh. How to figure out how to do a specific task in
+        the Connectors package.", "title": "Squeak video tutorial reverse engineering
+        documentation 0.0.0.46", "url": "http://www.youtube.com/watch?v=xC6jcLw25Go",
+        "author_name": "Lawson English", "height": 338, "width": 600, "html": "&lt;iframe
+        class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPL7275BCB775578E4B&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxC6jcLw25Go%26list%3DPL7275BCB775578E4B%26index%3D1&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FxC6jcLw25Go%2Fhqdefault.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=youtube\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "thumbnail_width": 480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url":
+        "http://i.ytimg.com/vi/xC6jcLw25Go/hqdefault.jpg", "type": "video", "thumbnail_height":
+        360, "author_url": "http://www.youtube.com/user/sparaig"}}, "score": 5, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2qcrpe", "permalink": "/r/programming/comments/2qcrpe/squeak_video_tutorial_reverse_engineering/",
+        "stickied": false, "created": 1419529079.0, "url": "https://www.youtube.com/watch?v=xC6jcLw25Go&amp;index=1&amp;list=PL7275BCB775578E4B",
+        "author_flair_text": null, "title": "Squeak video tutorial reverse engineering
+        documentation 0.0.0.46", "created_utc": 1419500279.0, "ups": 5, "num_comments":
+        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "virdata.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qdk34", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "alexeyr", "media": null, "score": 0, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qdk34",
+        "permalink": "/r/programming/comments/2qdk34/tuning_spark_streaming_for_throughput/",
+        "stickied": false, "created": 1419558160.0, "url": "http://www.virdata.com/tuning-spark/",
+        "author_flair_text": null, "title": "Tuning Spark Streaming for Throughput",
+        "created_utc": 1419529360.0, "ups": 0, "num_comments": 1, "visited": false,
+        "num_reports": null, "distinguished": null}}, {"kind": "t3", "data": {"domain":
+        "javaadvent.com", "banned_by": null, "media_embed": {}, "subreddit": "programming",
+        "selftext_html": null, "selftext": "", "likes": null, "user_reports": [],
+        "secure_media": null, "link_flair_text": null, "id": "2qaenh", "gilded": 0,
+        "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "moru0011", "media": null, "score": 61, "approved_by": null, "over_18": false,
+        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qaenh",
+        "permalink": "/r/programming/comments/2qaenh/a_persistent_keyvalue_server_in_40_lines_and_a/",
+        "stickied": false, "created": 1419467724.0, "url": "http://www.javaadvent.com/2014/12/a-persistent-keyvalue-server-in-40.html",
+        "author_flair_text": null, "title": "A persistent KeyValue Server in 40 lines
+        and a sad fact", "created_utc": 1419438924.0, "ups": 61, "num_comments": 8,
+        "visited": false, "num_reports": null, "distinguished": null}}, {"kind": "t3",
+        "data": {"domain": "periscope.io", "banned_by": null, "media_embed": {}, "subreddit":
+        "programming", "selftext_html": null, "selftext": "", "likes": null, "user_reports":
+        [], "secure_media": null, "link_flair_text": null, "id": "2qbmfi", "gilded":
+        0, "secure_media_embed": {}, "clicked": false, "report_reasons": null, "author":
+        "mith1x", "media": null, "score": 15, "approved_by": null, "over_18": false,
+        "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo", "edited": false,
+        "link_flair_css_class": null, "author_flair_css_class": null, "downs": 0,
+        "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qbmfi",
+        "permalink": "/r/programming/comments/2qbmfi/changing_dist_and_sort_keys_on_giant_tables_in/",
+        "stickied": false, "created": 1419494023.0, "url": "https://periscope.io/blog/changing-dist-and-sort-keys-in-redshift.html",
+        "author_flair_text": null, "title": "Changing Dist and Sort Keys on Giant
+        Tables in Redshift", "created_utc": 1419465223.0, "ups": 15, "num_comments":
+        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "github.com", "banned_by": null, "media_embed": {},
+        "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qbhoq", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "criator", "media": null, "score": 14, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2qbhoq",
+        "permalink": "/r/programming/comments/2qbhoq/schmoilerplate_a_barebones_boilerplate_for_modern/",
+        "stickied": false, "created": 1419490826.0, "url": "https://github.com/GulchGroup/schmoilerplate",
+        "author_flair_text": null, "title": "Schmoilerplate: a barebones boilerplate
+        for modern frontend developers", "created_utc": 1419462026.0, "ups": 14, "num_comments":
+        5, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "hackerearth.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qa1xs", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "praveen97uma", "media": null, "score": 72, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2qa1xs", "permalink": "/r/programming/comments/2qa1xs/beautiful_python_a_simple_ascii_art_generator/",
+        "stickied": false, "created": 1419459576.0, "url": "http://www.hackerearth.com/notes/beautiful-python-a-simple-ascii-art-generator-from-images/",
+        "author_flair_text": null, "title": "Beautiful Python: A Simple ASCII Art
+        Generator from Images", "created_utc": 1419430776.0, "ups": 72, "num_comments":
+        11, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "oj.leetcode.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2q78ze", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "vahidR", "media": null, "score": 2118, "approved_by": null,
+        "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2fwo",
+        "edited": false, "link_flair_css_class": null, "author_flair_css_class": null,
+        "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name": "t3_2q78ze",
+        "permalink": "/r/programming/comments/2q78ze/most_software_engineering_interview_questions_of/",
+        "stickied": false, "created": 1419390788.0, "url": "https://oj.leetcode.com/problems/",
+        "author_flair_text": null, "title": "Most software engineering interview questions
+        of hot tech companies in one place", "created_utc": 1419361988.0, "ups": 2118,
+        "num_comments": 614, "visited": false, "num_reports": null, "distinguished":
+        null}}, {"kind": "t3", "data": {"domain": "people.xiph.org", "banned_by":
+        null, "media_embed": {}, "subreddit": "programming", "selftext_html": null,
+        "selftext": "", "likes": null, "user_reports": [], "secure_media": null, "link_flair_text":
+        null, "id": "2qb3sj", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "3G6A5W338E", "media": null, "score": 18,
+        "approved_by": null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2qb3sj", "permalink": "/r/programming/comments/2qb3sj/next_generation_video_interlude_daala_update/",
+        "stickied": false, "created": 1419482114.0, "url": "https://people.xiph.org/~xiphmont/demo/daala/update1.shtml",
+        "author_flair_text": null, "title": "next generation video [interlude]: Daala
+        update 20141223", "created_utc": 1419453314.0, "ups": 18, "num_comments":
+        0, "visited": false, "num_reports": null, "distinguished": null}}, {"kind":
+        "t3", "data": {"domain": "ihartdevelopers.com", "banned_by": null, "media_embed":
+        {}, "subreddit": "programming", "selftext_html": null, "selftext": "", "likes":
+        null, "user_reports": [], "secure_media": null, "link_flair_text": null, "id":
+        "2qdnk7", "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "iHart_Developers", "media": null, "score": 0, "approved_by":
+        null, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+        "t5_2fwo", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "saved": false, "is_self": false, "name":
+        "t3_2qdnk7", "permalink": "/r/programming/comments/2qdnk7/7_best_way_to_learn_how_to_code_start_programming/",
+        "stickied": false, "created": 1419560392.0, "url": "http://www.ihartdevelopers.com/7-best-way-to-learn-how-to-code/",
+        "author_flair_text": null, "title": "7 best way : To learn How to Code (Start
+        Programming)", "created_utc": 1419531592.0, "ups": 0, "num_comments": 0, "visited":
+        false, "num_reports": null, "distinguished": null}}], "after": "t3_2qdnk7",
         "before": null}}'
     http_version: 
-  recorded_at: Sat, 20 Dec 2014 20:44:22 GMT
+  recorded_at: Thu, 25 Dec 2014 19:55:23 GMT
 recorded_with: VCR 2.9.3
