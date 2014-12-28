@@ -21,7 +21,7 @@ module Source
 
       hydra.run
 
-      requests.map { |request| JSON.parse(request.response.body, quirks_mode: true) }.compact!
+      requests.map { |request| JSON.parse(request.response.body, quirks_mode: true) }.compact
     end
 
     def item_ids
