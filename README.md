@@ -11,7 +11,8 @@ It aggregates programmer-centric news from the following sources:
 This is the codebase for the backend of the Coven API, used on both the [website](http://www.coven.link) and [Chrome Extension](https://chrome.google.com/webstore/detail/ifmjfbcenpbeenngpjhmkflkbaeacdjo).
 
 Visit here to work on the [Coven Frontend](https://www.github.com/goddamnyouryan/coven), built in Middleman.
-Check out the [Coven Command Line app](https://www.github.com/goddamnyouryan/coven-api), built in php by [jackyliang](https://github.com/jackyliang).
+Check out the [Coven Command Line app](https://github.com/jackyliang/coven-cli), built in php by [jackyliang](https://github.com/jackyliang).
+
 
 ## Contributing
 - Open an issue to see if your change is worth it (if it's a bug fix, assume it's worth it)
