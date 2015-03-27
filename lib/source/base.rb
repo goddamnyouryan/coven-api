@@ -14,6 +14,10 @@ module Source
       # string of brand symbol
     end
 
+    def self.feed_name
+      name.demodulize
+    end
+
     def feed_items
       # Should return a json array of the items in the feed
     end

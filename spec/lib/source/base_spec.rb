@@ -1,6 +1,11 @@
 require 'source/base'
 
 describe Source::Base do
+  describe '#feed_name' do
+    it 'returns feed name' do
+      expect(Source::ProductHunt.feed_name).to eq('ProductHunt')
+    end
+  end
 
   describe '.translate' do
     let(:feed_items) { [1, 2, 3] }
