@@ -3,10 +3,11 @@ class Post < ActiveRecord::Base
   validates :url, uniqueness: true
 
   def self.sync
-    Post.delete_all
     sources.each do |source|
-      source.new.translate.each_with_index do |hash, index|
-        Post.create hash.merge(source: source.name.demodulize, position: index)
+      post_attributes = source.new.translate
+      Post.where(source: source.feed_name).delete_all
+      post_attributes.each_with_index do |hash, index|
+        Post.create hash.merge(source: source.feed_name, position: index)
       end
     end
   end
