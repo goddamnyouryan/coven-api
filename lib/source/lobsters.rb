@@ -24,7 +24,7 @@ module Source
     end
 
     def api
-      'https://www.lobste.rs/'
+      'https://lobste.rs/'
     end
   end
 end
