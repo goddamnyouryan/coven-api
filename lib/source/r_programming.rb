@@ -24,7 +24,7 @@ module Source
     end
 
     def api
-      'http://www.reddit.com/r/'
+      'https://www.reddit.com/r/'
     end
   end
 end
